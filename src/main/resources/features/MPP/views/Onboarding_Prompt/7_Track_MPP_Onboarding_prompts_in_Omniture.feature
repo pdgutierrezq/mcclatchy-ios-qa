@@ -20,9 +20,18 @@ Feature: Track MPP Onboarding prompts in Omniture
     Examples:
       | button  | Params        | Values                             |
       | Sign In | appuseraction | Paywall:Onboarding Sign in         |
-      | Sign In | appuseraction | Paywall: Onboarding Sign in        |
-      | None    | apppagename   | Paywall: Onboarding New Not Synced |
 
+  @F7S2
+  Scenario Outline:
+    Given Marty is a new user
+    When Marty opens the app the first time
+    Then pass the required <Params> and <Values> to Omniture
+
+  Examples:
+    | Params      | Values                             |
+    | apppagename | Paywall: Onboarding New Not Synced |
+
+  @F7S3
   Scenario Outline:
     Given Marty is a new user
     And Marty opens the app the first time
@@ -33,28 +42,103 @@ Feature: Track MPP Onboarding prompts in Omniture
     Examples:
       | link                        | Params        | Values                                          |
       | Skip                        | appuseraction | Paywall: Onboarding Skip                        |
-      | Skip                        | apppagename   | Paywall: Onboarding Not Signed In               |
       | Restore iTunes subscription | appuseraction | Paywall: Onboarding Restore iTunes Subscription |
-      | None                        | apppagename   | Paywall: Onboarding Not Signed In               |
 
-  @F7S2
+  @F7S4
   Scenario Outline:
-    Given Marty opens the app after an app updrade
-    And an onboarding prompt is displayed
-    When Marty taps in <button>
+    Given Zalea is already a subscriber
+    And Zalea has a digital account
+    When Zalea opens the app the after three times
+    Then pass the required <Params> and <Values> to Omniture
+
+  Examples:
+    | Params      | Values                                |
+    | apppagename | Paywall: Onboarding Repeat Not Synced |
+
+  @F7S5
+  Scenario Outline:
+    Given Zalea is already a subscriber
+    And Zalea has not a digital account
+    When Zalea opens the app the after three times
+    And Zalea taps in <button>
+    Then pass the required <Params> and <Values> to Omniture
+
+  Examples:
+      | button         | Params        | Values                             |
+      | Create Account | appuseraction | Paywall: Onboarding Create Account |
+
+  @F7S6
+  Scenario Outline:
+    Given Zalea is already a subscriber
+    And Zalea has not a digital account
+    When Zalea opens the app the after three times
+    And Zalea taps in <link>
+    Then pass the required <Params> and <Values> to Omniture
+
+  Examples:
+    | link | Params        | Values                   |
+    | Skip | appuseraction | Paywall: Onboarding Skip |
+
+  @F7S7
+  Scenario Outline:
+    Given Zalea is already a subscriber
+    And Zalea has a digital account
+    When Zalea opens the app after an app upgrade
+    Then pass the required <Params> and <Values> to Omniture
+
+  Examples:
+    | Params      | Values                            |
+    | apppagename | Paywall: Onboarding Not Signed In |
+
+  @F7S8
+  Scenario Outline:
+    Given Zalea is already a subscriber
+    And Zalea has a digital account
+    When Zalea opens the app after an app upgrade
+    And Zalea taps in <button>
+    Then pass the required <Params> and <Values> to Omniture
+
+  Examples:
+    | button  | Params        | Values                      |
+    | Sign In | appuseraction | Paywall: Onboarding Sign in |
+
+  @F7S9
+  Scenario Outline:
+    Given Zalea is already a subscriber
+    And Zalea has a digital account
+    When Zalea opens the app after an app upgrade
+    And Zalea taps in <link>
+    Then pass the required <Params> and <Values> to Omniture
+
+  Examples:
+    | link | Params        | Values                      |
+    | Skip | appuseraction | Paywall: Onboarding Sign in |
+
+
+  @F7S10
+  Scenario Outline:
+    Given Zalea is already a subscriber
+    And Zalea is not Signed in to the app
+    When Zalea opens the app
+    And Zalea is browsing the stories
+    And an onboarding reprompt is opened
+    And Zalea taps in <button>
     Then pass the required <Params> and <Values> to Omniture
 
     Examples:
-      |button|Params|Values|
-      |Sign In|appuseraction|Paywall: Onboarding Sign in|
-      |
+      | button  | Params        | Values                                           |
+      | Sign In | appuseraction | Paywall: Onboarding Reprompt Sign In + Page Name |
 
-    Given an onboarding reprompt
+  @F7S11
+  Scenario Outline:
+    Given Zalea is already a subscriber
+    And Zalea is not Signed in to the app
+    When Zalea opens the app
+    And Zalea is browsing the stories
+    And an onboarding reprompt is opened
+    And Zalea taps in <link>
+    Then pass the required <Params> and <Values> to Omniture
 
-  Scenario:
-    When the reader tap on any button
-    Then pass the required params and values to Omniture
-
-  Scenario:
-    When the Reader tap on any link
-    Then pass the required params and values to Omniture
+    Examples:
+      | link    | Params        | Values                                           |
+      | Dismiss | appuseraction | Paywall: Onboarding Reprompt Dismiss + Page Name |
