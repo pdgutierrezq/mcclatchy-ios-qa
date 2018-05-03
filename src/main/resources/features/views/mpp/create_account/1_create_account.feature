@@ -81,8 +81,8 @@ Feature: Terms of service on create account view
     Given Zalea are using a <device>
     And Zalea navigates to the <dialog>
     When Zalea tap in <button>
-    Then automatically sign reader into their MPP account
-    And Zalea is returned to the <view>
+    Then Zalea is returned to the <view>
+    And Zalea is signed automatically into their MPP account
 
     Examples:
       | device | dialog    | button | view     |
