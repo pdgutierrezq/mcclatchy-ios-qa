@@ -45,8 +45,7 @@ Feature: Terms of service on create account view
     Given Zalea are using a <device>
     And Zalea navigates to the <view>
     When Zalea tap in <button>
-    Then a dialog is displayed
-    And the displayed dialog prompt corresponds with the <design>
+    Then a dialog prompt corresponding to the <design> is displayed
 
     Examples:
       | device | design                                              | view           | button   |
@@ -70,7 +69,7 @@ Feature: Terms of service on create account view
     And Zalea navigates to the <dialog>
     When Zalea tap in <button>
     And create MPP digital account
-    Then the displayed <dialog> prompt corresponds with the <design>
+    Then a dialog prompt corresponding to the <design> is displayed
 
     Examples:
       | device | dialog | button | design                                              |
