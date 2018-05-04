@@ -85,5 +85,5 @@ Feature: Terms of service on create account view
     And Zalea is signed automatically into their MPP account
 
     Examples:
-      | device | dialog    | button | view     |
-      | phone  | Thank you | OK     | settings |
+      | device | dialog          | button | view     |
+      | phone  | account success | OK     | settings |
