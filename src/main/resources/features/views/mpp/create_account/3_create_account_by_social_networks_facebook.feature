@@ -2,7 +2,7 @@
 @MPP
 @View
 @English
-@MOBI-5215
+@MOBI-5275
 @SocialPermissionView
 Feature: Create digital account with Facebook login
 
