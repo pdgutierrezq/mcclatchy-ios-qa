@@ -16,6 +16,7 @@ Feature: Terms of service on create account view
     And Zalea has not a digital account
 
   @F1S1
+  @MOBI-5275
   Scenario Outline: Create account view
     Given Zalea is using a <device>
     When Zalea navigates to the <view>
@@ -87,3 +88,16 @@ Feature: Terms of service on create account view
     Examples:
       | device | dialog          | button | view     |
       | phone  | account success | OK     | settings |
+
+  @F1S7
+  @MOBI-5275
+  Scenario Outline: Creating account by social media view
+    Given Zalea are using a <device>
+    And Zalea navigates to the <view>
+    When Zalea taps in <social media>
+    Then the displayed <view> corresponds with the <design>
+
+    Examples:
+      | device | design                                                       | view           | social media |
+      | phone  | https://mcclatchy.invisionapp.com/share/4NGOBEWZ5WA#/screens | create account | Facebook     |
+      | tablet | https://mcclatchy.invisionapp.com/share/XPD4GMA7E#/screens   | create account | Facebook     |
