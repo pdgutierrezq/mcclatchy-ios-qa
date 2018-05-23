@@ -10,6 +10,7 @@ Feature: MPP onboarding prompts
   I can collect data on how many readers are encountering and interacting with them.
 
   @F2S1
+  @MCCDV015-13
   Scenario Outline: Onboarding new not synced
     Given Marty is a new user without a subscription
     When Marty opens the app for the first times
@@ -21,6 +22,7 @@ Feature: MPP onboarding prompts
 
 
   @F2S2
+  @MCCDV015-[14:15]
   Scenario Outline: Onboarding repeat not synced
     Given Zalea is already a subscriber
     When Zalea opens the app for <n> times
@@ -32,6 +34,7 @@ Feature: MPP onboarding prompts
       | 5 | onboarding repeat not synced | https://mcclatchy.invisionapp.com/share/J4EJAFDMP |
 
   @F2S3
+  @MCCDV015-16
   Scenario Outline: Onboarding not signed in
     Given Marty is a new user without a subscription
     And Marty is using a previous app version
@@ -45,6 +48,7 @@ Feature: MPP onboarding prompts
       | onboarding not signed in | https://mcclatchy.invisionapp.com/share/CAE45KKRV |
 
   @F2S4
+  @MCCDV015-17
   Scenario Outline: Onboarding reprompt
     Given Marty is a new user without a subscription
     And Marty opens the app for the second time
