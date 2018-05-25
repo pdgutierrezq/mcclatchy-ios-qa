@@ -1,0 +1,670 @@
+{
+  "about": {
+    "contact_email": "miamifeedback@miamiherald.com",
+    "links": {
+      "copyright": "http://www.miamiherald.com/?widgetName=code\u0026widgetContentId=1573490",
+      "privacy_policy": "http://www.miamiherald.com/?widgetName=code\u0026widgetContentId=1573605",
+      "terms_of_service": "http://www.miamiherald.com/?widgetName=code\u0026widgetContentId=1315540"
+    }
+  },
+  "ads": {
+    "adhesion": {
+      "phone": {
+        "size": {
+          "height": 50,
+          "width": 320
+        }
+      }
+    },
+    "admob": {
+      "phone": {
+        "ad_unit_id": "/7675/MIA.app-inhouse-phoneiOS_miamiherald"
+      },
+      "pl": {
+        "section": "sectfront",
+        "story": "story"
+      },
+      "tablet": {
+        "ad_unit_id": "/7675/MIA.app-inhouse-tabletiOS_miamiherald"
+      }
+    },
+    "enabled": true,
+    "interstitial": {
+      "thresholds": {
+        "galleries": 10,
+        "stories": 7
+      }
+    }
+  },
+  "analytics": {
+    "omniture": {
+      "appid": "9e0fec1d-e92d-4978-a794-3b2c2199ec61",
+      "biz_unit": "MIA",
+      "debug_logging": true,
+      "enabled": true,
+      "publication": "Miami Herald",
+      "rsid": "nmmiami",
+      "server": "nandomedia.112.2o7.net"
+    }
+  },
+  "api_info": {
+    "base_url": "https://qa2-api.krabc.com/mobile-api/",
+    "publication": "miamiherald"
+  },
+  "app_info": {
+    "core_app": true
+  },
+  "app_store_id": "366466705",
+  "apptentive": {
+    "api_key": "9db9dde4371e87d3b25c108433c005abedfcf2bfa9aaed151d7fbc081943f165",
+    "app_key_SDK4": "IOS-MIAMI-HERALD-NEWS",
+    "app_signature": "f7ca94ee0d9148a57f7fa9bd4a25c708",
+    "enabled": true
+  },
+  "log_entries": {
+    "log_level": 7
+  },
+  "market_timezone": {
+    "abbreviation": "EST",
+    "offset": -300
+  },
+  "mather": {
+    "appId": "v1",
+    "collectorUrl": "http://www.i.matheranalytics.com",
+    "cookieDomain": ".matheranalytics.com",
+    "customerId": "ma12095",
+    "enabled": true,
+    "market": "74930296",
+    "publication": "Miami Herald"
+  },
+  "more_options": [
+    {
+      "name": "Obituaries",
+      "type": "internal_link",
+      "url": "http://www.legacy.com/obituaries/herald/"
+    },
+    {
+      "name": "eEdition",
+      "type": "print_edition",
+      "url": "http://digital.olivesoftware.com/Olive/ODN/MiamiHerald/"
+    },
+    {
+      "name": "Find \u0026 Save",
+      "type": "internal_link",
+      "url": "http://findnsave.miamiherald.com/"
+    },
+    {
+      "name": "Jobs",
+      "type": "internal_link",
+      "url": "http://www.careerbuilder.com/?siteid=CB_MH_jbstrm\u0026lr=CBCB_MH/"
+    },
+    {
+      "name": "Cars",
+      "type": "internal_link",
+      "url": "http://www.miamiherald.com/cars/"
+    },
+    {
+      "name": "Real Estate",
+      "type": "internal_link",
+      "url": "http://www.miamiherald.com/real_estate/"
+    },
+    {
+      "name": "All Classifieds",
+      "type": "internal_link",
+      "url": "http://www.miamiherald.com/classified-ads/"
+    },
+    {
+      "name": "Weekly Ads",
+      "type": "internal_link",
+      "url": "http://circulars.miamiherald.com/d/p/miamiheraldapp?chrome=nohead"
+    },
+    {
+      "name": "Moonlighting",
+      "type": "internal_link",
+      "url": "http://www.startmoonlighting.com/mni/Miami-Herald/"
+    },
+    {
+      "name": "Miami.com",
+      "type": "internal_link",
+      "url": "http://www.miami.com"
+    },
+    {
+      "name": "Indulge Magazine",
+      "type": "internal_link",
+      "url": "http://www.miamiindulge.com"
+    },
+    {
+      "name": "Facebook",
+      "type": "internal_link",
+      "url": "https://www.facebook.com/pages/Miami-Herald/38925837299"
+    },
+    {
+      "name": "Twitter",
+      "type": "internal_link",
+      "url": "https://twitter.com/miamiherald"
+    },
+    {
+      "name": "Google+",
+      "type": "internal_link",
+      "url": "https://plus.google.com/109936907321316291240/posts"
+    }
+  ],
+  "paywall": {
+    "app_name": "Miami Herald",
+    "app_url": "http://www.miamiherald.com/",
+    "digital_access_url": "https://account.miamiherald.com/digital-access",
+    "email_id": "customerservice@miamiherald.com",
+    "enabled": true,
+    "mpp_api_config": {
+      "origin": "http://localhost",
+      "tokenId": "AEA896D310CA46C3B5DB02F5B2E1C1AB",
+      "version": "9.0.0"
+    },
+    "print_subscriber_enabled": false,
+    "production_enabled": false,
+    "products": [
+      {
+        "duration": "annually",
+        "identifier": "com.herald.news.subscriptionAnnually"
+      },
+      {
+        "duration": "monthly",
+        "identifier": "com.herald.news.SubscriptionMonthly"
+      }
+    ],
+    "shared_secret": "e15555af707744daa592906f4301899f",
+    "social_signin_enabled": false
+  },
+  "print_edition": {
+    "enabled": true,
+    "name": "eEdition",
+    "url": "http://digital.olivesoftware.com/Olive/ODN/MiamiHerald/"
+  },
+  "print_subscriber_support_center": {
+    "enabled": true,
+    "url": "https://mcciservices.newscyclecloud.com/cgi-bin/cmo_mcc-c-cmdb-est-01.sh/custservice/web/login.html?siteid=MIA"
+  },
+  "push_notifications": {
+    "experian": {
+      "app_name": "Miami Herald",
+      "application_id": "feb139e5-c7da-4dd3-97f2-117fb8b3f795",
+      "customer_id": 663,
+      "enabled": true,
+      "is_sandbox": false,
+      "sender_profile_id": "57",
+      "site_name": "miamiherald"
+    }
+  },
+  "sections_info": {
+    "more_options_section": {
+      "enabled": true,
+      "isFirst": false,
+      "name": "Obituaries \u0026 more"
+    },
+    "multisection": {
+      "name": "Top Stories",
+      "sections_shown": 5,
+      "stories_shown": 5,
+      "top_stories_shown": 5,
+      "top_story_section_id": "3179"
+    },
+    "sections": [
+      {
+        "content_type": "content",
+        "name": "Local News",
+        "section_id": "5043",
+        "sections": [
+          {
+            "content_type": "content",
+            "name": "QA2  Section 1",
+            "section_id": "1",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "QA2  Section 2",
+            "section_id": "2",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "QA2 Section 1725",
+            "section_id": "1725",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "QA2 Section 3985",
+            "section_id": "3985",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "QA2 Section 7112",
+            "section_id": "7212",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "QA2 Section 3986",
+            "section_id": "3986",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "QA2 Section 7456",
+            "section_id": "7456",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "QA2 Section 2160",
+            "section_id": "2160",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "QA2 Section 7231",
+            "section_id": "7231",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "QA2 Section 3402",
+            "section_id": "3402",
+            "template": 2,
+            "type": "section"
+          }          
+        ],
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "video",
+        "name": "Featured Videos",
+        "section_id": "3179",
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Entertainment",
+        "section_id": "4968",
+        "sections": [
+          {
+            "content_type": "content",
+            "name": "Celebrities",
+            "section_id": "4971",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Horoscopes",
+            "section_id": "4978",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Movies",
+            "section_id": "4979",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Performing Arts",
+            "section_id": "4984",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Visual Arts",
+            "section_id": "4989",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Jose Lambiet",
+            "section_id": "4976",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Lesley Abravenel",
+            "section_id": "5958",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Rene Rodriguez",
+            "section_id": "4981",
+            "template": 2,
+            "type": "section"
+          }
+        ],
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Business",
+        "section_id": "5020",
+        "sections": [
+          {
+            "content_type": "content",
+            "name": "Cindy Krischer Goodman",
+            "section_id": "5023",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "The Starting Gate",
+            "template": 2,
+            "type": "section",
+            "url": "https://api.krabc.com/mobile-api/v1/rss_section/miamiherald.typepad.com/the-starting-gate/spreed.xml"
+          },
+          {
+            "content_type": "content",
+            "name": "Work/Life Balancing Act",
+            "template": 2,
+            "type": "section",
+            "url": "https://api.krabc.com/mobile-api/v1/rss_section/miamiherald.typepad.com/worklifebalancingact/spreed.xml"
+          }
+        ],
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Florida",
+        "section_id": "5121",
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Nation \u0026 World",
+        "section_id": "5091",
+        "sections": [
+          {
+            "content_type": "content",
+            "name": "National",
+            "section_id": "5092",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "World",
+            "section_id": "5093",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Americas",
+            "section_id": "5094",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Cuba",
+            "section_id": "5096",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Guantanamo",
+            "section_id": "5098",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Haiti",
+            "section_id": "5099",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Venezuela",
+            "section_id": "5100",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Weird News",
+            "section_id": "5127",
+            "template": 2,
+            "type": "section"
+          }
+        ],
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Politics",
+        "section_id": "5039",
+        "sections": [
+          {
+            "content_type": "content",
+            "name": "State Politics",
+            "section_id": "5041",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Naked Politics",
+            "template": 2,
+            "type": "section",
+            "url": "https://api.krabc.com/mobile-api/v1/rss_section/miamiherald.typepad.com/nakedpolitics/spreed.xml"
+          }
+        ],
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Opinion",
+        "section_id": "5128",
+        "sections": [
+          {
+            "content_type": "content",
+            "name": "Editorials",
+            "section_id": "5129",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Op-Ed",
+            "section_id": "5137",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Leonard Pitts Jr.",
+            "section_id": "5150",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Carl Hiaasen",
+            "section_id": "5148",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Jim Morin",
+            "section_id": "5131",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Andres Oppenheimer",
+            "section_id": "5082",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Fabiola Santiago",
+            "section_id": "5084",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Fred Grimm",
+            "section_id": "5085",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Letters to the Editor",
+            "section_id": "5135",
+            "template": 2,
+            "type": "section"
+          }
+        ],
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Living",
+        "section_id": "4990",
+        "sections": [
+          {
+            "content_type": "content",
+            "name": "Health \u0026 Fitness",
+            "section_id": "5000",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Home \u0026 Garden",
+            "section_id": "5005",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Fashion",
+            "section_id": "4991",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Food \u0026 Drink",
+            "section_id": "4992",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Travel",
+            "section_id": "5012",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Ana Veciana Suarez",
+            "section_id": "5008",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Dave Barry",
+            "section_id": "5009",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Dave Barry - Blog",
+            "template": 2,
+            "type": "section",
+            "url": "https://api.krabc.com/mobile-api/v1/rss_section/blogs.herald.com/dave_barrys_blog/spreed.xml"
+          }
+        ],
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Miami Dolphins",
+        "section_id": "5182",
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Miami Heat",
+        "section_id": "5180",
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Trending",
+        "type": "trending",
+        "url": "https://api.krabc.com/mobile-api/v1/publications/miamiherald/trending/limit/10"
+      },
+      {
+        "content_type": "gallery",
+        "name": "Featured Photos",
+        "section_id": "3179",
+        "template": 2,
+        "type": "section"
+      }
+    ],
+    "stories_shown_per_section": 20
+  },
+  "social": {
+    "facebook": {
+      "api_key": "133847067760",
+      "enabled": true
+    }
+  },
+  "weather": {
+    "accuweather": {
+      "api_key": "2ce96fe9da724185a27db1e6a3ecf580",
+      "dev_mode": false,
+      "enabled": true,
+      "icons_base_url": "http://static.mcclatchyinteractive.com/mobile/apps/images/weather-icons/accuweather/",
+      "location_key": "347936"
+    }
+  }
+}
