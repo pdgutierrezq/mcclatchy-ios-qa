@@ -1,0 +1,197 @@
+{
+  "about": {
+    "contact_email": "miamifeedback@miamiherald.com",
+    "links": {
+      "copyright": "http://www.miamiherald.com/?widgetName=code\u0026widgetContentId=1573490",
+      "privacy_policy": "http://www.miamiherald.com/?widgetName=code\u0026widgetContentId=1573605",
+      "terms_of_service": "http://www.miamiherald.com/?widgetName=code\u0026widgetContentId=1315540"
+    }
+  },
+  "ads": {
+    "adhesion": {
+      "phone": {
+        "size": {
+          "height": 50,
+          "width": 320
+        }
+      }
+    },
+    "admob": {
+      "phone": {
+        "ad_unit_id": "/7675/MIA.app-inhouse-phoneiOS_heraldhssports"
+      },
+      "pl": {
+        "section": "sectfront",
+        "story": "story"
+      },
+      "tablet": {
+        "ad_unit_id": "/7675/MIA.app-inhouse-tabletiOS_heraldhssports"
+      }
+    },
+    "enabled": true,
+    "interstitial": {
+      "thresholds": {
+        "galleries": 10,
+        "stories": 7
+      }
+    }
+  },
+  "analytics": {
+    "omniture": {
+      "appid": "9e0fec1d-e92d-4978-a794-3b2c2199ec61",
+      "biz_unit": "MIA",
+      "debug_logging": true,
+      "enabled": true,
+      "publication": "Herald High School Sports",
+      "rsid": "nmmiami",
+      "server": "nandomedia.112.2o7.net"
+    }
+  },
+  "api_info": {
+    "base_url": "https://api.krabc.com/mobile-api/",
+    "publication": "miamiherald"
+  },
+  "app_info": {
+    "core_app": false
+  },
+  "app_store_id": "692780888",
+  "apptentive": {
+    "api_key": "f5c863a54ec9174c8d161485f1cbe7c18b27417134874e14f64b5c6a876ef050",
+    "app_key_SDK4": "IOS-HERALD-HIGH-SCHOOL-SPORTS",
+    "app_signature": "29001219842e5ca17b878984e2d25d86",
+    "enabled": true
+  },
+  "log_entries": {
+    "log_level": 7
+  },
+  "market_timezone": {
+    "abbreviation": "EST",
+    "offset": -300
+  },
+  "mather": {
+    "appId": "v1",
+    "collectorUrl": "http://www.i.matheranalytics.com",
+    "cookieDomain": ".matheranalytics.com",
+    "customerId": "ma12095",
+    "enabled": true,
+    "market": "74930296",
+    "publication": "Herald High School Sports"
+  },
+  "more_options": [
+    {
+      "name": "Miami-Dade Weekly Schedule",
+      "type": "internal_link",
+      "url": "http://pubsys.miamiherald.com/static/sports/mobile/hssports2010/hss-schedule-dade.htm"
+    },
+    {
+      "name": "Miami-Dade Past Week Scores",
+      "type": "internal_link",
+      "url": "http://pubsys.miamiherald.com/static/sports/mobile/hssports2010/hss-scores-dade.htm"
+    },
+    {
+      "name": "Broward Weekly Schedule",
+      "type": "internal_link",
+      "url": "http://pubsys.miamiherald.com/static/sports/mobile/hssports2010/hss-schedule-broward.htm"
+    },
+    {
+      "name": "Broward Past Week Scores",
+      "type": "internal_link",
+      "url": "http://pubsys.miamiherald.com/static/sports/mobile/hssports2010/hss-scores-broward.htm"
+    }
+  ],
+  "paywall": {
+    "app_name": "Miami High School Sports",
+    "app_url": "http://www.miamiherald.com/",
+    "email_id": "customerservice@miamiherald.com",
+    "enabled": true
+  },
+  "push_notifications": {
+    "experian": {
+      "app_name": "Miami High School Sports",
+      "application_id": "88ef22f6-2ef8-4901-8755-560b063d1cae",
+      "customer_id": 663,
+      "enabled": true,
+      "is_sandbox": false,
+      "sender_profile_id": "87",
+      "site_name": "miamiherald"
+    }
+  },
+  "sections_info": {
+    "more_options_section": {
+      "enabled": true,
+      "isFirst": false,
+      "name": "Schedule \u0026 more"
+    },
+    "multisection": {
+      "name": "Home",
+      "sections_shown": 5,
+      "stories_shown": 5
+    },
+    "sections": [
+      {
+        "content_type": "content",
+        "name": "Miami-Dade",
+        "section_id": "5172",
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Broward",
+        "section_id": "5171",
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "video",
+        "name": "Videos",
+        "section_id": "5170",
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "gallery",
+        "name": "Photos",
+        "section_id": "5170",
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Recruiting",
+        "section_id": "5173",
+        "sections": [
+          {
+            "content_type": "video",
+            "name": "Videos",
+            "section_id": "5173",
+            "template": 2,
+            "type": "section"
+          }
+        ],
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "High School Blog",
+        "template": 2,
+        "type": "section",
+        "url": "https://api.krabc.com/mobile-api/v1/rss_section/miamiherald.typepad.com/hssports/spreed.xml"
+      }
+    ],
+    "stories_shown_per_section": 20
+  },
+  "social": {
+    "facebook": {
+      "api_key": "133847067760",
+      "enabled": true
+    }
+  },
+  "weather": {
+    "accuweather": {
+      "enabled": true,
+      "location_key": "347936"
+    }
+  }
+}

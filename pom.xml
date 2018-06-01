@@ -7,6 +7,84 @@
     <groupId>mcclatchy.ios</groupId>
     <artifactId>qa</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <profiles>
+        <profile>
+            <id>api-server</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-antrun-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <id>copy files</id>
+                                <phase>validate</phase>
+                                <configuration>
+                                    <tasks>
+                                        <scp trust="yes"
+                                             todir="${ssh.userid}:${ssh.password}@${ssh.host}:${ssh.remotedir}/testSection/peter">
+                                            <fileset dir="${project.basedir}/src/test/resources/api/config"/>
+                                        </scp>
+                                        <scp trust="yes"
+                                             todir="${ssh.userid}:${ssh.password}@${ssh.host}:${ssh.remotedir}">
+                                            <fileset dir="${project.basedir}/src/test/resources/api/phoenix"/>
+                                        </scp>
+                                    </tasks>
+                                </configuration>
+                                <goals>
+                                    <goal>run</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                        <dependencies>
+                            <dependency>
+                                <groupId>org.apache.ant</groupId>
+                                <artifactId>ant-jsch</artifactId>
+                                <version>1.10.3</version>
+                            </dependency>
+                        </dependencies>
+                    </plugin>
+                </plugins>
+            </build>
+            <properties>
+                <ssh.remotedir>
+                    ${remotedir}
+                </ssh.remotedir>
+                <ssh.host>${host}</ssh.host>
+                <ssh.userid>${username}</ssh.userid>
+                <ssh.password>${password}</ssh.password>
+            </properties>
+        </profile>
+        <profile>
+            <id>jira</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>com.zephyre</groupId>
+                        <artifactId>maven-jira-plugin</artifactId>
+                        <version>1.0-SNAPSHOT</version>
+                        <executions>
+                            <execution>
+                                <phase>validate</phase>
+                                <goals>
+                                    <goal>sync</goal>
+                                </goals>
+                                <configuration>
+                                    <server>https://jira.endava.com/</server>
+                                    <username>pgutierrez</username>
+                                    <projectId>20216</projectId>
+                                    <features>${project.basedir}/src/main/resources/features</features>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
 
 
 </project>

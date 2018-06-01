@@ -17,6 +17,7 @@ Feature: Terms of service on create account view
 
   @F1S1
   @MOBI-5275
+  @MCCDV015-[1:2]
   Scenario Outline: Create account view
     Given Zalea is using a <device>
     When Zalea navigates to the <view>
@@ -28,6 +29,7 @@ Feature: Terms of service on create account view
       | tablet | https://mcclatchy.invisionapp.com/share/XPD4GMA7E | create account |
 
   @F1S2
+  @MCCDV015-[3:6]
   Scenario Outline: ToS and PP links
     Given Zalea are using a <device>
     And Zalea navigates to the <view>
@@ -42,6 +44,7 @@ Feature: Terms of service on create account view
       | tablet | img/tablet/MPP/create_account/pp.png  | create account | PP   |
 
   @F1S3
+  @MCCDV015-[7:8]
   Scenario Outline: ToS dialog
     Given Zalea are using a <device>
     And Zalea navigates to the <view>
@@ -54,6 +57,7 @@ Feature: Terms of service on create account view
       | tablet | https://mcclatchy.invisionapp.com/share/GSGOBE5TQXN | create account | Continue |
 
   @F1S4
+  @MCCDV015-9
   Scenario Outline: ToS dialog cancel button
     Given Zalea are using a <device>
     And Zalea navigates to the <dialog>
@@ -65,6 +69,7 @@ Feature: Terms of service on create account view
       | phone  | ToS    | Cancel | create account |
 
   @F1S5
+  @MCCDV015-[10:11]
   Scenario Outline: ToS dialog agree button
     Given Zalea are using a <device>
     And Zalea navigates to the <dialog>
@@ -78,6 +83,7 @@ Feature: Terms of service on create account view
       | table  | ToS    | Agree  | https://mcclatchy.invisionapp.com/share/Y5GOBTLUFR9 |
 
   @F1S6
+  @MCCDV015-12
   Scenario Outline: Thank you dialog
     Given Zalea are using a <device>
     And Zalea navigates to the <dialog>

@@ -1,0 +1,1148 @@
+{
+   "ab_testing":{
+      "optimizely":{
+         "enabled":true,
+         "project_id":"8234522125"
+      }
+   },
+   "about":{
+      "contact_email":"miamifeedback@miamiherald.com",
+      "links":{
+         "copyright":"http://www.miamiherald.com/?widgetName=code&widgetContentId=1573490",
+         "privacy_policy":"http://www.miamiherald.com/?widgetName=code&widgetContentId=1573605",
+         "terms_of_service":"http://www.miamiherald.com/?widgetName=code&widgetContentId=1315540"
+      }
+   },
+   "ads":{
+      "admob":{
+         "phone":{
+            "ad_unit_id":"/7675/MIA.app-inhouse-phoneiOS_miamiherald"
+         },
+         "pl":{
+            "section":"sectfront",
+            "story":"story"
+         },
+         "tablet":{
+            "ad_unit_id":"/7675/MIA.app-inhouse-tabletiOS_miamiherald"
+         }
+      },
+      "enabled":true,
+      "interstitial":{
+         "thresholds":{
+            "galleries":10,
+            "sections":7,
+            "stories":7,
+            "videos":10
+         }
+      },
+      "menu_enabled":false
+   },
+   "analytics":{
+      "omniture":{
+         "appid":"9e0fec1d-e92d-4978-a794-3b2c2199ec61",
+         "biz_unit":"MIA",
+         "debug_logging":true,
+         "enabled":true,
+         "publication":"Miami Herald",
+         "rsid":"nmmianalytics",
+         "server":"nandomedia.112"
+      }
+   },
+   "log_entries":{
+   		"log_level":7
+   },
+    "print_subscriber_support_center": {
+    "enabled": false,
+    "url": "https://mcciservices.newscyclecloud.com/cgi-bin/cmo_mcc-c-cmdb-est-01.sh/custservice/web/login.html?siteid=MIA"
+   },
+   "mather":{
+   		"appId":"v1",
+   		"customerId":"ma12095",
+   		"market": "74930999",
+   		"enabled":true,
+   		"cookieDomain" : ".matheranalytics.com",
+   		"publication" : "Miami Herald",
+   		"collectorUrl" : "http://www.i.matheranalytics.com"
+   },
+   "api_info":{
+      "base_url":"https://api.krabc.com/mobile-api/",
+      "publication":"miamiherald"
+   },
+  "app_info": {
+    "core_app": true
+  },
+   "app_store_id":"366466705",
+   "apptentive": {
+      "api_key": "5dfac4e91c167e4e113577907dfb4b571a95e371049bc63197361fceb0439cac",
+      "enabled": true
+   },
+   "market_timezone":{
+      "abbreviation":"EST",
+      "offset":-300
+   },
+   "print_edition":{
+	   	"enabled":true,
+	   	"name":"Print Edition",
+		"url":"http://digital.olivesoftware.com/Olive/ODN/MiamiHerald/"
+   },
+   "more_options":[
+      {
+         "name":"Obituaries",
+         "type":"internal_link",
+         "url":"http://www.legacy.com/obituaries/herald/"
+      },
+      {
+         "name":"Print Edition",
+         "type":"internal_link",
+         "url":"http://digital.olivesoftware.com/Olive/ODN/MiamiHerald/"
+      },
+      {
+         "name":"Find & Save",
+         "type":"internal_link",
+         "url":"http://findnsave.miamiherald.com/"
+      },
+      {
+         "name":"Jobs",
+         "type":"internal_link",
+         "url":"http://www.careerbuilder.com/?siteid=CB_MH_jbstrm&lr=CBCB_MH/"
+      },
+      {
+         "name":"Cars",
+         "type":"internal_link",
+         "url":"http://www.miamiherald.com/cars/"
+      },
+      {
+         "name":"Real Estate",
+         "type":"internal_link",
+         "url":"http://www.miamiherald.com/real_estate/"
+      },
+      {
+         "name":"All Classifieds",
+         "type":"internal_link",
+         "url":"http://www.miamiherald.com/classified-ads/"
+      },
+      {
+         "name":"Weekly Ads",
+         "type":"internal_link",
+         "url":"http://circulars.miamiherald.com/d/p/miamiheraldapp?chrome=nohead"
+      },
+      {
+         "name":"Miami.com",
+         "type":"internal_link",
+         "url":"http://www.miami.com"
+      },
+      {
+         "name":"Indulge Magazine",
+         "type":"internal_link",
+         "url":"http://www.miamiindulge.com"
+      },
+      {
+         "name":"Facebook",
+         "type":"internal_link",
+         "url":"https://www.facebook.com/pages/Miami-Herald/38925837299"
+      },
+      {
+         "name":"Twitter",
+         "type":"internal_link",
+         "url":"https://twitter.com/miamiherald"
+      },
+      {
+         "name":"Google+",
+         "type":"internal_link",
+         "url":"https://plus.google.com/109936907321316291240/posts"
+      }
+   ],
+   "paywall":{
+    "enabled":true,
+    "social_signin_enabled":false,
+    "print_subscriber_enabled":true,
+    "production_enabled":false,
+    "app_name":"Phoenix Reader",
+    "app_url":"mcclatchy.com",
+    "email_id": "customerservice@miamiherald.com",
+    "shared_secret":"2a3b7adacd75483e886e9624bafd0742",  
+    "digital_access_url":"https://account.qa1.miamiherald.com/digital-access",
+   	"products": [
+   		{  "identifier":"com.mcclatchy.phoenixReader.annuallySubscription",
+	   		"duration":"annually"
+   		},
+   		{  "identifier":"com.mcclatchy.phoenixReader.monthlySubscription",
+	   		"duration":"monthly"
+   		}
+   	],
+   	"mpp_api_config": {
+   		"tokenId":"AEA896D310CA46C3B5DB02F5B2E1C1AB",
+   		"origin":"http://localhost",
+   		"version":"9.0.0"
+   	},
+   	"janrain_config" : {
+   		"engageAppId":"appcfamhnpkagijaeinl",
+           "captureDomain":"mobile-dev.janraincapture.com/",
+           "captureClientId":"9vt2ej43mxyftkf68c3xthkm2rtweg8w",
+           "captureLocale":"en-US",
+           "captureFlowName":"standard",
+           "captureFlowVersion":"HEAD",
+           "captureSignInFormName":"signInForm",
+           "captureSocialRegistrationFormName":"socialRegistrationForm",
+           "captureAppId":"rz47skmnm48jpcv3bh4eguv4b8",
+        "googlePlusClientId":"169582807084-vd2cpgn80d2fj47e56fnd5bfsjht2vb2.apps.googleusercontent.com",
+        "googlePlusRedirectUri":"com.googleusercontent.apps.169582807084-vd2cpgn80d2fj47e56fnd5bfsjht2vb2:/oauthredirect"
+   	}
+   },
+   "push_notifications":{
+      "experian":{
+         "enabled":true,
+         "is_sandbox":true,
+         "customer_id":121,
+         "application_id":"909bb943-7ff2-476d-8796-08295a691d28",
+         "app_name": "Phoenix Reader",
+         "site_name": "www.mcclatchy.com",
+         "sender_profile_id": "24"
+      }
+   },
+   "sections_info": {
+    "more_options_section": {
+      "enabled": true,
+      "isFirst": false,
+      "name": "Obituaries & more"
+    },
+    "multisection": {
+      "sections_shown": 5,
+      "stories_shown": 5,
+      "top_stories_shown": 5,
+      "top_story_section_id": "3179",
+      "name" : "Top Stories"
+    },
+    "sections": [
+      {
+        "content_type": "content",
+        "name": "Latest News",
+        "url": "https://api.krabc.com/mobile-api/v1/publications/miamiherald/latest_news/limit/20",
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Local News",
+        "section_id": "5043",
+        "sections": [
+          {
+            "content_type": "content",
+            "name": "Broward",
+            "section_id": "5046",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Miami Dade",
+            "section_id": "5048",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Health Care",
+            "section_id": "5029",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Florida",
+            "section_id": "5121",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Aventura - Sunny Isles",
+            "section_id": "5049",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Brickell",
+            "section_id": "5050",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Coconut Grove",
+            "section_id": "5051",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Coral Gables",
+            "section_id": "5052",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Cutler Bay",
+            "section_id": "5053",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Downtown Miami",
+            "section_id": "5055",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Doral",
+            "section_id": "17591",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Edison - Liberty City",
+            "section_id": "5056",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Hialeah",
+            "section_id": "5058",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Homestead - South Dade",
+            "section_id": "5059",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Kendall",
+            "section_id": "5060",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Key Biscayne",
+            "section_id": "5061",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Little Havana - Fiagami",
+            "section_id": "5062",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Miami Beach",
+            "section_id": "5063",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Miami Gardens - Opa-locka",
+            "section_id": "5064",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Miami Lakes",
+            "section_id": "5065",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Miami Shores",
+            "section_id": "5066",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "River Cities",
+            "section_id": "5067",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Midtown",
+            "section_id": "5068",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "North Miami - NMB",
+            "section_id": "5069",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Palmetto Bay",
+            "section_id": "5070",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Pinecrest",
+            "section_id": "5071",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "South Miami",
+            "section_id": "5072",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "West Kendall",
+            "section_id": "5073",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "West Miami-Dade",
+            "section_id": "5074",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Florida Keys",
+            "section_id": "5047",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Gay South Florida",
+            "section_id": "5045",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Lottery",
+            "section_id": "5090",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Local Obituaries",
+            "section_id": "5080",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Fabiola Santigo",
+            "section_id": "5084",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Fred Grimm",
+            "section_id": "5085",
+            "template": 2,
+            "type": "section"
+          }
+        ],
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Sports",
+        "section_id": "5151",
+        "sections": [
+          {
+            "content_type": "content",
+            "name": "Miami Dolphins",
+            "section_id": "5182",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Miami Heat",
+            "section_id": "5180",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Miami Marlins",
+            "section_id": "5176",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Florida Panthers",
+            "section_id": "5185",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "University of Miami",
+            "section_id": "5155",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Florida International",
+            "section_id": "5159",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "University of Florida",
+            "section_id": "5166",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Florida State University",
+            "section_id": "5154",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "High School Sports",
+            "section_id": "5170",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Auto",
+            "section_id": "5178",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Fighting",
+            "section_id": "5169",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Soccer",
+            "section_id": "5177",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Tennis",
+            "section_id": "5199",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Outdoors",
+            "section_id": "5188",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Other Sports",
+            "section_id": "5187",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Sports on the Air",
+            "section_id": "5198",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Dan Le Batard",
+            "section_id": "5191",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Greg Cote",
+            "section_id": "5193",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Linda Robertson",
+            "section_id": "5195",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Michelle Kaufman",
+            "section_id": "5197",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Miami Dolphins in Depth",
+            "section_id": "5190",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Heat Check",
+            "section_id": "70472",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "On Frozen Pond",
+            "section_id": "70467",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Sports Buzz",
+            "section_id": "69942",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Eye on the U",
+            "section_id": "71078",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Fish Bytes",
+            "section_id": "72714",
+            "template": 2,
+            "type": "section"
+          },
+          {
+			"content_type": "content",
+			"name": "Random Evidence",
+			"template": 2,
+			"type": "section",
+			"url": "https://api.krabc.com/mobile-api/v1/rss_section/blogs.herald.com/random_evidence/spreed.xml"
+		}
+        ],
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "video",
+        "name": "Featured Videos",
+        "section_id": "3179",
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Entertainment",
+        "section_id": "4968",
+        "sections": [
+          {
+            "content_type": "content",
+            "name": "Celebrities",
+            "section_id": "4971",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Horoscopes",
+            "section_id": "4978",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Movies",
+            "section_id": "4979",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Performing Arts",
+            "section_id": "4984",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Visual Arts",
+            "section_id": "4989",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Jose Lambiet",
+            "section_id": "4976",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Lesley Abravenel",
+            "section_id": "5958",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Rene Rodriguez",
+            "section_id": "4981",
+            "template": 2,
+            "type": "section"
+          }
+        ],
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Business",
+        "section_id": "5020",
+        "sections": [
+          {
+            "content_type": "content",
+            "name": "Cindy Krischer Goodman",
+            "section_id": "5023",
+            "template": 2,
+            "type": "section"
+          }
+        ],
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Florida",
+        "section_id": "5121",
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Nation & World",
+        "section_id": "5091",
+        "sections": [
+          {
+            "content_type": "content",
+            "name": "National",
+            "section_id": "5092",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "World",
+            "section_id": "5093",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Americas",
+            "section_id": "5094",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Cuba",
+            "section_id": "5096",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Haiti",
+            "section_id": "5099",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Venezuela",
+            "section_id": "5100",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Weird News",
+            "section_id": "5127",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Andres Oppenheimer",
+            "section_id": "5082",
+            "template": 2,
+            "type": "section"
+          }
+        ],
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Politics",
+        "section_id": "5039",
+        "sections": [
+          {
+            "content_type": "content",
+            "name": "State Politics",
+            "section_id": "5041",
+            "template": 2,
+            "type": "section"
+          }
+        ],
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Opinion",
+        "section_id": "5128",
+        "sections": [
+          {
+            "content_type": "content",
+            "name": "Editorials",
+            "section_id": "5129",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Op-Ed",
+            "section_id": "5137",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Jim Morin",
+            "section_id": "5131",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Letters to the Editor",
+            "section_id": "5135",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "From Our Inbox",
+            "section_id": "5140",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Speak Up",
+            "section_id": "5145",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Carl Hiaasen",
+            "section_id": "5148",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Leonard Pitts Jr.",
+            "section_id": "5150",
+            "template": 2,
+            "type": "section"
+          }
+        ],
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Living",
+        "section_id": "4990",
+        "sections": [
+          {
+            "content_type": "content",
+            "name": "Health & Fitness",
+            "section_id": "5000",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Home & Garden",
+            "section_id": "5005",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Fashion",
+            "section_id": "4991",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Food & Drink",
+            "section_id": "4992",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Travel",
+            "section_id": "5012",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Ana Veciana Suarez",
+            "section_id": "5008",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Dave Barry",
+            "section_id": "5009",
+            "template": 2,
+            "type": "section"
+          }
+        ],
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Miami Dolphins",
+        "section_id": "5182",
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Miami Heat",
+        "section_id": "5180",
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Trending",
+        "type": "trending",
+        "url": "https://api.krabc.com/mobile-api/v1/publications/miamiherald/trending/limit/10"
+      },
+      {
+        "content_type": "gallery",
+        "name": "Featured Photos",
+        "section_id": "3179",
+        "template": 2,
+        "type": "section"
+      },
+      {
+            "content_type":"content",
+            "name":"Test Section",
+            "url":"http://static.mcclatchyinteractive.com/mobile_app_configs/ios/phoenix/testSection/testSection.json",
+            "template":2,
+            "type":"section",
+            "sections":[
+   			      {
+      				"content_type": "content",
+			        "name": "Assets Embebed Code",
+			        "url": "http://static.mcclatchyinteractive.com/mobile_app_configs/ios/phoenix/testSection/peter/sections/assetsEmbebedCode.json",
+			        "template": 2,
+			        "type": "section"
+      			   }, 
+               {
+                  "content_type":"content",
+                  "name":"RSS Section",
+                  "url":"https://api.krabc.com/mobile-api/v1/rss_section/miamiherald.typepad.com/dolphins_in_depth/spreed.xml",
+                  "template":2,
+                  "type":"section"
+               },
+               {
+      				"content_type": "content",
+			        "name": "Facebook Post",
+			        "url": "http://static.mcclatchyinteractive.com/mobile_app_configs/ios/phoenix/testSection/facebookPosts.json",
+			        "template": 2,
+			        "type": "section"
+      			},
+      			{
+      				"content_type": "content",
+			        "name": "Related Media",
+			        "url": "http://static.mcclatchyinteractive.com/mobile_app_configs/ios/phoenix/testSection/relatedMediaStories.json",
+			        "template": 2,
+			        "type": "section"
+      			},
+      			{
+      				"content_type": "content",
+			        "name": "Related Assets",
+			        "url": "http://static.mcclatchyinteractive.com/mobile_app_configs/ios/phoenix/testSection/relatedAssetsStories.json",
+			        "template": 2,
+			        "type": "section"
+      			},
+      			{
+      				"content_type": "content",
+			        "name": "Inline Assets",
+			        "url": "http://static.mcclatchyinteractive.com/mobile_app_configs/ios/phoenix/inlineStoryNMediaAsset.json",
+			        "template": 2,
+			        "type": "section"
+      			},
+      			{
+      				"content_type": "content",
+			        "name": "Table Stories",
+			        "url": "http://static.mcclatchyinteractive.com/mobile_app_configs/ios/phoenix/TableStories.json",
+			        "template": 2,
+			        "type": "section"
+      			},
+      			{
+      				"content_type": "content",
+			        "name": "Table Ads",
+			        "url": "http://static.mcclatchyinteractive.com/mobile_app_configs/ios/phoenix/TableAds.json",
+			        "template": 2,
+			        "type": "section"
+      			},
+      			{
+      				"content_type": "content",
+			        "name": "Cover It Live",
+			        "url": "http://static.mcclatchyinteractive.com/mobile_app_configs/ios/phoenix/testSection/coverItLive.json",
+			        "template": 2,
+			        "type": "section"
+      			},
+      			{
+      				"content_type": "content",
+			        "name": "Embedded Stories",
+			        "url": "http://static.mcclatchyinteractive.com/mobile_app_configs/ios/phoenix/testSection/embeddedStories.json",
+			        "template": 2,
+			        "type": "section"
+      			},
+      			{
+      				"content_type": "content",
+			        "name": "ByLine Stories",
+			        "url": "http://static.mcclatchyinteractive.com/mobile_app_configs/ios/phoenix/testSection/byLineStories.json",
+			        "template": 2,
+			        "type": "section"
+      			},
+      			{
+      				"content_type": "content",
+			        "name": "Youtube iFrame Stories",
+			        "url": "https://api.krabc.com/mobile-api/v1/sections/5169",
+			        "template": 2,
+			        "type": "section"
+      			},
+      			{
+      				"content_type": "content",
+			        "name": "ByLine Stories Test",
+			        "url": "http://static.mcclatchyinteractive.com/mobile_app_configs/ios/phoenix/testSection/TestBylineStories.json",
+			        "template": 2,
+			        "type": "section"
+      			},
+      			{
+      				"content_type": "content",
+			        "name": "ByLine Stories Gaby Bug",
+			        "url": "http://static.mcclatchyinteractive.com/mobile_app_configs/ios/phoenix/testSection/peter/sections/byLineStoriesGabyBug.json",
+			        "template": 2,
+			        "type": "section"
+      			},  
+      			{
+      				"content_type": "content",
+			        "name": "Photographer Field",
+			        "url": "http://static.mcclatchyinteractive.com/mobile_app_configs/ios/phoenix/testSection/peter/sections/photographerField.json",
+			        "template": 2,
+			        "type": "section"
+      			},                                    
+      			{
+      				"content_type": "content",
+			        "name": "Preroll Ads",
+			        "url": "http://static.mcclatchyinteractive.com/mobile_app_configs/ios/phoenix/PrerollAdSection.json",
+			        "template": 2,
+			        "type": "section"
+      			},
+      			{
+      				"content_type": "content",
+			        "name": "Related Content Stories",
+			        "url": "http://static.mcclatchyinteractive.com/mobile_app_configs/ios/phoenix/testSection/relatedContentStories.json",
+			        "template": 2,
+			        "type": "section"
+      			}
+            ]
+        }
+    ],
+    "stories_shown_per_section": 20
+  },
+   "social":{
+      "facebook":{
+         "api_key":"133847067760",
+         "enabled":true
+      }
+   },
+   "weather":{
+      "accuweather":{
+         "api_key":"2ce96fe9da724185a27db1e6a3ecf580",
+         "dev_mode":false,
+         "enabled":true,
+         "icons_base_url":"http://static.mcclatchyinteractive.com/mobile/apps/images/weather-icons/accuweather/",
+         "location_key":"347936"
+      }
+   }
+}

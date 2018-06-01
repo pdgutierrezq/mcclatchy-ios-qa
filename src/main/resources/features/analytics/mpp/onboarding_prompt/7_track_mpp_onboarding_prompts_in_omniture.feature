@@ -8,6 +8,7 @@ Feature: Track MPP Onboarding prompts in Omniture
   I can collect data on how many readers are encountering and interacting with them.
 
   @F7S1
+  @MCCDV015-[27:32]
   Scenario Outline: Onboarding New Not Synced
     Given Marty is a new user without a subscription
     And Marty navigates to the <view>
@@ -24,6 +25,7 @@ Feature: Track MPP Onboarding prompts in Omniture
       | Restore iTunes subscription | apppagename   | Paywall: Onboarding New Not Synced              | onboarding new not synced |
 
   @F7S2
+  @MCCDV015-[33:40]
   Scenario Outline: Onboarding repeat not synced after 3rd app launch
     Given Zalea is already a subscriber
     And Zalea navigates to the <view>
@@ -42,6 +44,7 @@ Feature: Track MPP Onboarding prompts in Omniture
       | Skip           | appuseraction | Paywall: Onboarding Skip              | onboarding repeat not synced |
 
   @F7S3
+  @MCCDV015-[41:44]
   Scenario Outline: Onborading updating app
     Given Marty is a new user without a subscription
     And Marty navigates to the <view>
@@ -56,6 +59,7 @@ Feature: Track MPP Onboarding prompts in Omniture
       | Skip    | appuseraction | Paywall: Onboarding Skip          | onboarding not signed in |
 
   @F7S4
+  @MCCDV015-[45:46]
   Scenario Outline: Onboarding reprompt
     Given Marty is a new user without a subscription
     And Marty navigates to the <view>
@@ -64,6 +68,6 @@ Feature: Track MPP Onboarding prompts in Omniture
 
     Examples:
       | option  | param         | value                                            | view                |
-      | Sign In | appuseraction | Paywall: Onboarding Reprompt Sign In + Page Name | onboarding reprompt |
-      | Dismiss | appuseraction | Paywall: Onboarding Reprompt Dismiss + Page Name | onboarding reprompt |
+      | Sign In | appuseraction | Paywall: Onboarding Reprompt Sign In  | onboarding reprompt |
+      | Dismiss | appuseraction | Paywall: Onboarding Reprompt Dismiss  | onboarding reprompt |
 
