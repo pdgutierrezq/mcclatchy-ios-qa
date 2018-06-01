@@ -14,7 +14,7 @@ Background:
   WHEN a reader taps on Subscribe
   THEN display the Subscribe view as spec'd in the designs
 
-@FXS1
+@F5403S1
 Scenario Outline:
   Given Zalea is using a <device>
   When Zalea navigates to <menu>
@@ -26,7 +26,7 @@ Scenario Outline:
     | Phone  | Subscribe | https://mcclatchy.invisionapp.com/share/RAIUOJU6YHG#/screens |
 
 
-@FXS2
+@F5403S2
 Scenario Outline:
   Given Zalea is in the <menu>
   When Zalea taps on <link>
