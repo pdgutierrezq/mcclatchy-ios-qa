@@ -1,0 +1,468 @@
+{
+  "about": {
+    "contact_email": "comentarios@elnuevoherald.com",
+    "links": {
+      "copyright": "http://www.elnuevoherald.com/?widgetName=code\u0026widgetContentId=1573490",
+      "privacy_policy": "http://www.elnuevoherald.com/?widgetName=code\u0026widgetContentId=1573605",
+      "terms_of_service": "http://www.elnuevoherald.com/?widgetName=code\u0026widgetContentId=1315540"
+    }
+  },
+  "ads": {
+    "adhesion": {
+      "phone": {
+        "size": {
+          "height": 50,
+          "width": 320
+        }
+      }
+    },
+    "admob": {
+      "phone": {
+        "ad_unit_id": "/7675/MIA.app-inhouse-phoneiOS_elnuevoherald"
+      },
+      "pl": {
+        "section": "sectfront",
+        "story": "story"
+      },
+      "tablet": {
+        "ad_unit_id": "/7675/MIA.app-inhouse-tabletiOS_elnuevoherald"
+      }
+    },
+    "enabled": true,
+    "interstitial": {
+      "thresholds": {
+        "galleries": 10,
+        "stories": 7
+      }
+    },
+    "menu_enabled": false
+  },
+  "analytics": {
+    "omniture": {
+      "appid": "9456f6f06292a9cc4cef5ec4e65ab9b66d0783039dad10744eb5634be9f03220",
+      "biz_unit": "ELN",
+      "debug_logging": true,
+      "enabled": true,
+      "publication": "El Nuevo Herald",
+      "rsid": "nmnuevo",
+      "server": "nandomedia.112.2o7.net"
+    }
+  },
+  "api_info": {
+    "base_url": "https://api.krabc.com/mobile-api/",
+    "publication": "elnuevoherald"
+  },
+  "app_info": {
+    "core_app": true
+  },
+  "app_store_id": "457551810",
+  "apptentive": {
+    "api_key": "5a669b9708465194fc00f6a11ceddc13ddde0dd7986cd716af2e598e541da5ea",
+    "app_key_SDK4": "IOS-EL-NUEVO-HERALD-a92f44700c01",
+    "app_signature": "e7b2bf2e0730131945692420b3b9cea9",
+    "enabled": true
+  },
+  "log_entries": {
+    "log_level": 7
+  },
+  "market_timezone": {
+    "abbreviation": "EST",
+    "offset": -300
+  },
+  "mather": {
+    "appId": "v1",
+    "collectorUrl": "http://www.i.matheranalytics.com",
+    "cookieDomain": ".matheranalytics.com",
+    "customerId": "ma12095",
+    "enabled": true,
+    "market": "74930396",
+    "publication": "El Nuevo Herald"
+  },
+  "more_options": [
+    {
+      "name": "eEdition",
+      "type": "print_edition",
+      "url": "http://digital.olivesoftware.com/Olive/ODN/NuevoHerald/"
+    },
+    {
+      "name": "Miami.com",
+      "type": "internal_link",
+      "url": "http://www.miami.com/espanol/"
+    },
+    {
+      "name": "Dealsaver",
+      "type": "internal_link",
+      "url": "http://miami.dealsaver.com/"
+    },
+    {
+      "name": "Ahorre Aquí",
+      "type": "internal_link",
+      "url": "http://findnsave.miamiherald.com/"
+    },
+    {
+      "name": "Empleos",
+      "type": "internal_link",
+      "url": "http://www.careerbuilder.com/Default.aspx?lr=cbcb_elnh\u0026siteid=cbcb_elnh001\u0026siteID=enh_nav"
+    },
+    {
+      "name": "Autos",
+      "type": "internal_link",
+      "url": "http://www.elnuevoherald.com/autos/"
+    },
+    {
+      "name": "Bienes Raíces",
+      "type": "internal_link",
+      "url": "http://www.elnuevoherald.com/bienes-raices/"
+    },
+    {
+      "name": "Todos los Clasificados",
+      "type": "internal_link",
+      "url": "http://www.elnuevoherald.com/clasificados/"
+    },
+    {
+      "name": "Facebook",
+      "type": "internal_link",
+      "url": "https://www.facebook.com/pages/El-Nuevo-Herald/126339201288/"
+    },
+    {
+      "name": "Twitter",
+      "type": "internal_link",
+      "url": "https://twitter.com/elnuevoherald/"
+    },
+    {
+      "name": "Instagram",
+      "type": "internal_link",
+      "url": "https://www.instagram.com/elnuevoherald/"
+    }
+  ],
+  "paywall": {
+    "app_name": "El Nuevo Herald",
+    "app_url": "http://www.elnuevoherald.com/",
+    "digital_access_url": "https://account.elnuevoherald.com/digital-access",
+    "email_id": "customerservice@elnuevoherald.com",
+    "enabled": false
+  },
+  "print_edition": {
+    "enabled": true,
+    "name": "eEdition",
+    "url": "http://digital.olivesoftware.com/Olive/ODN/NuevoHerald/"
+  },
+  "print_subscriber_support_center": {
+    "enabled": true,
+    "url": "https://mcciservices.newscyclecloud.com/cgi-bin/cmo_mcc-c-cmdb-est-01.sh/custservice/web/login.html?siteid=MEN"
+  },
+  "push_notifications": {
+    "experian": {
+      "app_name": "El Nuevo Herald",
+      "application_id": "c387aeeb-df09-410c-a54c-2ba4e4af7538",
+      "customer_id": 663,
+      "enabled": true,
+      "is_sandbox": false,
+      "sender_profile_id": "47",
+      "site_name": "elnuevo"
+    }
+  },
+  "sections_info": {
+    "more_options_section": {
+      "enabled": true,
+      "isFirst": false,
+      "name": "Otras Secciones"
+    },
+    "multisection": {
+      "name": "Artículos principales",
+      "sections_shown": 5,
+      "stories_shown": 5,
+      "top_stories_shown": 5,
+      "top_story_section_id": "3177"
+    },
+    "sections": [
+      {
+        "content_type": "content",
+        "name": "Últimas Noticias",
+        "template": 2,
+        "type": "section",
+        "url": "https://api.krabc.com/mobile-api/v1/publications/elnuevoherald/latest_news/limit/20"
+      },
+      {
+        "content_type": "content",
+        "name": "Sur de la Florida",
+        "section_id": "5374",
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "EEUU",
+        "section_id": "5379",
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Cuba",
+        "section_id": "5391",
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Venezuela",
+        "section_id": "5394",
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Colombia",
+        "section_id": "5390",
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "América Latina",
+        "section_id": "5389",
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Mundo",
+        "section_id": "5388",
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "AccesoMiami",
+        "section_id": "69947",
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Las Más Populares",
+        "type": "trending",
+        "url": "https://api.krabc.com/mobile-api/v1/publications/elnuevoherald/trending/limit/10"
+      },
+      {
+        "content_type": "video",
+        "name": "Videos Destacados",
+        "section_id": "3177",
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Entretenimiento",
+        "section_id": "5328",
+        "sections": [
+          {
+            "content_type": "content",
+            "name": "Cine",
+            "section_id": "5329",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Gente",
+            "section_id": "5339",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Música",
+            "section_id": "5341",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Revista Viernes",
+            "section_id": "5343",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Teatro",
+            "section_id": "5344",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Galería 305",
+            "section_id": "5347",
+            "template": 2,
+            "type": "section"
+          }
+        ],
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Walter Mercado",
+        "section_id": "5362",
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Opinión",
+        "section_id": "5397",
+        "sections": [
+          {
+            "content_type": "content",
+            "name": "Columnas de hoy",
+            "section_id": "5397",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "En nuestra opinión",
+            "section_id": "5398",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Correo del lector",
+            "section_id": "5422",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Opinión sobre Cuba",
+            "section_id": "5416",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Opinión sobre Venezuela",
+            "section_id": "5417",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Voces de la educación",
+            "section_id": "5418",
+            "template": 2,
+            "type": "section"
+          }
+        ],
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Deportes",
+        "section_id": "5423",
+        "sections": [
+          {
+            "content_type": "content",
+            "name": "Boxeo",
+            "section_id": "5424",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Fútbol",
+            "section_id": "5425",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Béisbol",
+            "section_id": "5427",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "NBA",
+            "section_id": "5428",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Football",
+            "section_id": "5429",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Otros Deportes",
+            "section_id": "5431",
+            "template": 2,
+            "type": "section"
+          }
+        ],
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "gallery",
+        "name": "Fotos Destacadas",
+        "section_id": "3177",
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Finanzas",
+        "section_id": "5366",
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Tecnología",
+        "section_id": "5368",
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Curiosidades",
+        "section_id": "5377",
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Inmigración",
+        "section_id": "5372",
+        "template": 2,
+        "type": "section"
+      }
+    ],
+    "stories_shown_per_section": 20
+  },
+  "social": {
+    "facebook": {
+      "api_key": "552047374819310",
+      "enabled": true
+    }
+  },
+  "weather": {
+    "accuweather": {
+      "api_key": "2ce96fe9da724185a27db1e6a3ecf580",
+      "dev_mode": false,
+      "enabled": true,
+      "icons_base_url": "http://static.mcclatchyinteractive.com/mobile/apps/images/weather-icons/accuweather/",
+      "location_key": "347936"
+    }
+  }
+}

@@ -65,7 +65,7 @@
    		"collectorUrl" : "http://www.i.matheranalytics.com"
    },
    "api_info":{
-      "base_url":"https://api.krabc.com/mobile-api/",
+      "base_url":"https://qa2-api.krabc.com/mobile-api/",
       "publication":"miamiherald"
    },
   "app_info": {

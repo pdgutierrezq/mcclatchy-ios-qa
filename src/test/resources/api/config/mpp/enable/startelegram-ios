@@ -1,0 +1,530 @@
+{
+  "about": {
+    "contact_email": "online@star-telegram.com",
+    "links": {
+      "copyright": "http://www.star-telegram.com/?widgetName=code\u0026widgetContentId=1573490",
+      "privacy_policy": "http://www.star-telegram.com/?widgetName=code\u0026widgetContentId=1573605",
+      "terms_of_service": "http://www.star-telegram.com/?widgetName=code\u0026widgetContentId=1315540"
+    }
+  },
+  "ads": {
+    "adhesion": {
+      "phone": {
+        "size": {
+          "height": 50,
+          "width": 320
+        }
+      }
+    },
+    "admob": {
+      "phone": {
+        "ad_unit_id": "/7675/FTW.app-inhouse-phoneiOS_star-telegram"
+      },
+      "pl": {
+        "section": "sectfront",
+        "story": "story"
+      },
+      "tablet": {
+        "ad_unit_id": "/7675/FTW.app-inhouse-tabletiOS_star-telegram"
+      }
+    },
+    "enabled": true,
+    "interstitial": {
+      "thresholds": {
+        "galleries": 10,
+        "stories": 7
+      }
+    }
+  },
+  "analytics": {
+    "omniture": {
+      "appid": "46a4a2e540e8d72e79be6b1df0bdda246e306a22ffbee782cc927d956101a4d7",
+      "biz_unit": "DFW",
+      "debug_logging": true,
+      "enabled": true,
+      "publication": "Ft. Worth Star Telegram",
+      "rsid": "nmfortworth",
+      "server": "nandomedia.112.2o7.net"
+    }
+  },
+  "api_info": {
+    "base_url": "https://api.krabc.com/mobile-api/",
+    "publication": "star-telegram"
+  },
+  "app_info": {
+    "core_app": true
+  },
+  "app_store_id": "389708740",
+  "apptentive": {
+    "api_key": "51f9c35a48aca1e446876474bf6745619f95b57a5eb61bae5aa4883eba9282c2",
+    "app_key_SDK4": "IOS-FT-WORTH-STAR-TELEGRAM-NEWS",
+    "app_signature": "50b24742a6bfe203d6479e217944d8af",
+    "enabled": true
+  },
+  "log_entries": {
+    "log_level": 7
+  },
+  "market_timezone": {
+    "abbreviation": "CST",
+    "offset": -360
+  },
+  "mather": {
+    "appId": "v1",
+    "collectorUrl": "http://www.i.matheranalytics.com",
+    "cookieDomain": ".matheranalytics.com",
+    "customerId": "ma12095",
+    "enabled": true,
+    "market": "74930421",
+    "publication": "Ft. Worth Star Telegram"
+  },
+  "more_options": [
+    {
+      "name": "Obituaries",
+      "type": "internal_link",
+      "url": "http://m.legacy.com/obituaries/dfw/"
+    },
+    {
+      "name": "eEdition",
+      "type": "print_edition",
+      "url": "http://digital.olivesoftware.com/Olive/ODN/FortWorth/"
+    },
+    {
+      "name": "All Classifieds",
+      "type": "internal_link",
+      "url": "http://classifieds.star-telegram.com/"
+    },
+    {
+      "name": "Cars",
+      "type": "internal_link",
+      "url": "http://mobile.cars.com/"
+    },
+    {
+      "name": "Homes",
+      "type": "internal_link",
+      "url": "http://www.homefinder.com/mobile"
+    },
+    {
+      "name": "Jobs",
+      "type": "internal_link",
+      "url": "http://mobile.careerbuilder.com/seeker?lr=cbcb_fwst\u0026siteid=cb_fwst"
+    },
+    {
+      "name": "Moonlighting",
+      "type": "internal_link",
+      "url": "http://www.startmoonlighting.com/mni/Fort-Worth-Star-Telegram/"
+    },
+    {
+      "name": "Daily Deals",
+      "type": "internal_link",
+      "url": "http://fortworth.dealsaver.com/"
+    },
+    {
+      "name": "Weekly Ads",
+      "type": "internal_link",
+      "url": "http://circulars.star-telegram.com/d/p/startelegramapp?chrome=nohead"
+    }
+  ],
+  "paywall": {
+    "app_name": "Ft. Worth Star Telegram",
+    "app_url": "http://www.star-telegram.com/",
+    "digital_access_url": "https://account.star-telegram.com/digital-access",
+    "email_id": "customerservice@star-telegram.com",
+    "enabled": true,
+    "mpp_api_config": {
+      "origin": "http://localhost",
+      "tokenId": "07D38BBA8CD74A249FA6C5CA23B88BA4",
+      "version": "9.0.0"
+    },
+    "print_subscriber_enabled": false,
+    "production_enabled": false,
+    "products": [
+      {
+        "duration": "annually",
+        "identifier": "com.mcclatchy.star.AnnualSubscription"
+      },
+      {
+        "duration": "monthly",
+        "identifier": "com.mcclatchy.star.MonthlySubscription"
+      }
+    ],
+    "shared_secret": "e15555af707744daa592906f4301899f",
+    "social_signin_enabled": false
+  },
+  "print_edition": {
+    "enabled": true,
+    "name": "eEdition",
+    "url": "http://digital.olivesoftware.com/Olive/ODN/FortWorth/"
+  },
+  "print_subscriber_support_center": {
+    "enabled": true,
+    "url": "https://mcciservices.newscyclecloud.com/cgi-bin/cmo_mcc-c-cmdb-cst-01.sh/custservice/web/login.html?siteid=FTW"
+  },
+  "push_notifications": {
+    "experian": {
+      "app_name": "Ft. Worth Star Telegram",
+      "application_id": "ce8067c7-67bd-4951-bd54-98f7e5280ad2",
+      "customer_id": 663,
+      "enabled": true,
+      "is_sandbox": false,
+      "site_name": "star-telegram"
+    }
+  },
+  "sections_info": {
+    "more_options_section": {
+      "enabled": true,
+      "isFirst": false,
+      "name": "Obituaries \u0026 more"
+    },
+    "multisection": {
+      "name": "Top Stories",
+      "sections_shown": 5,
+      "stories_shown": 5,
+      "top_stories_shown": 5,
+      "top_story_section_id": "3187"
+    },
+    "sections": [
+      {
+        "content_type": "content",
+        "name": "Latest News",
+        "template": 2,
+        "type": "section",
+        "url": "https://api.krabc.com/mobile-api/v1/publications/star-telegram/latest_news/limit/20"
+      },
+      {
+        "content_type": "content",
+        "name": "Local",
+        "section_id": "6024",
+        "sections": [
+          {
+            "content_type": "content",
+            "name": "Fort Worth",
+            "section_id": "6033",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Arlington",
+            "section_id": "6026",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Northeast Tarrant",
+            "section_id": "6063",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Crime and Safety",
+            "section_id": "6064",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Dallas",
+            "section_id": "6062",
+            "template": 2,
+            "type": "section"
+          }
+        ],
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Sports",
+        "section_id": "6100",
+        "sections": [
+          {
+            "content_type": "content",
+            "name": "Dallas Cowboys",
+            "section_id": "6141",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Texas Rangers",
+            "section_id": "6132",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "TCU",
+            "section_id": "6109",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Dallas Mavericks",
+            "section_id": "6138",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Colleges",
+            "section_id": "6102",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "dfwVarsity",
+            "section_id": "6118",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Mac Engel",
+            "section_id": "6154",
+            "template": 2,
+            "type": "section"
+          }
+        ],
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "video",
+        "name": "Featured Videos",
+        "section_id": "3187",
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Entertainment",
+        "section_id": "5974",
+        "sections": [
+          {
+            "content_type": "content",
+            "name": "Restaurants",
+            "section_id": "72854",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Things to Do",
+            "section_id": "72929",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Movies",
+            "section_id": "72874",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Music",
+            "section_id": "72894",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Arts \u0026 Culture",
+            "section_id": "5975",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Nightlife",
+            "section_id": "72864",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Party Pics",
+            "section_id": "72869",
+            "template": 2,
+            "type": "section"
+          }
+        ],
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Business",
+        "section_id": "6008",
+        "sections": [
+          {
+            "content_type": "content",
+            "name": "SkyTalk Airlines Blog",
+            "section_id": "6010",
+            "template": 2,
+            "type": "section"
+          }
+        ],
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Opinions",
+        "section_id": "6086",
+        "sections": [
+          {
+            "content_type": "content",
+            "name": "Bud Kennedy",
+            "section_id": "6094",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Letters to the Editor",
+            "section_id": "6088",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Editorials",
+            "section_id": "6087",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Cheers and Jeers",
+            "section_id": "6091",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Cynthia M. Allen",
+            "section_id": "6095",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Mike Norman",
+            "section_id": "6097",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Richard Greene",
+            "section_id": "6098",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Other Voices",
+            "section_id": "6099",
+            "template": 2,
+            "type": "section"
+          }
+        ],
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "State",
+        "section_id": "6077",
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Politics",
+        "section_id": "6019",
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Living",
+        "section_id": "5983",
+        "sections": [
+          {
+            "content_type": "content",
+            "name": "Food \u0026 Drink",
+            "section_id": "5987",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Home \u0026 Garden",
+            "section_id": "5989",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Indulge",
+            "section_id": "5998",
+            "template": 2,
+            "type": "section"
+          }
+        ],
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Fort Worth",
+        "section_id": "6033",
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Dallas Cowboys",
+        "section_id": "6141",
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Trending",
+        "type": "trending",
+        "url": "https://api.krabc.com/mobile-api/v1/publications/star-telegram/trending/limit/10"
+      },
+      {
+        "content_type": "gallery",
+        "name": "Featured Photos",
+        "section_id": "3187",
+        "template": 2,
+        "type": "section"
+      }
+    ],
+    "stories_shown_per_section": 20
+  },
+  "social": {
+    "facebook": {
+      "api_key": "155812681283151",
+      "enabled": true
+    }
+  },
+  "weather": {
+    "accuweather": {
+      "api_key": "2ce96fe9da724185a27db1e6a3ecf580",
+      "dev_mode": false,
+      "enabled": true,
+      "icons_base_url": "http://static.mcclatchyinteractive.com/mobile/apps/images/weather-icons/accuweather/",
+      "location_key": "351196"
+    }
+  }
+}
