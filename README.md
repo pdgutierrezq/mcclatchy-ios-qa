@@ -21,3 +21,9 @@ Repository of testing for McClatchy iOS
 |onboarding reprompt|https://mcclatchy.invisionapp.com/d/main#/console/10899958/260106779/preview||
 |onboarding reprompt|https://mcclatchy.invisionapp.com/d/main#/console/10899958/260106779/preview||
 |create account|https://mcclatchy.invisionapp.com/share/5PD3Q44FD |https://mcclatchy.invisionapp.com/share/XPD4GMA7E |
+
+### Server Routing
+| Server  | Project|
+| ---  |---  |
+| http://static.mcclatchyinteractive.com/mobile_app_configs/ios/phoenix/ | mcclatchy-ios-qa/src/test/resources/api/phoenix |
+| http://static.mcclatchyinteractive.com/mobile_app_configs/ios/phoenix/testSection/peter/ | mcclatchy-ios-qa/src/test/resources/api/config |
