@@ -5,7 +5,7 @@
 @Sprint-5
 @MOBI-5403
 @SubscribeView
-Feature:
+Feature: Modify the Subscribe view to include explicit subscription information for Apple review
   As a PO, I want to modify the Subscribe view to include explicit subscription information
   so that readers are fully informed on how subscriptions are handled and have access to
   Terms of Service and Privacy Policy.
@@ -17,7 +17,7 @@ Background:
 
 @MOBI-5403_S1
 @MCCDV015-[47:48]
-Scenario Outline:
+Scenario Outline: Subscription view
   Given Zalea is using a <device>
   When Zalea navigates to <menu>
   Then Zalea sees the <view>
@@ -30,7 +30,7 @@ Scenario Outline:
 
 @MOBI-5403_S2
 @MCCDV015-[49:50]
-Scenario Outline:
+Scenario Outline: Terms of Service and Privacy Policy
   Given Zalea is in the <menu>
   When Zalea taps on <link>
   Then Zalea sees the <view>
