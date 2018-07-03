@@ -1,13 +1,14 @@
-@F7
 @MPP
-@Analytics
+@Sprint-2
+@Sprint-3
 @MOBI-4982
+@Analytics
 Feature: Track MPP Onboarding prompts in Omniture
 
   As an business stakeholder, I want track the onboarding prompts in Omniture so that
   I can collect data on how many readers are encountering and interacting with them.
 
-  @F7S1
+  @MOBI-4982_S1
   @MCCDV015-[27:32]
   Scenario Outline: Onboarding New Not Synced
     Given Marty is a new user without a subscription
@@ -24,7 +25,7 @@ Feature: Track MPP Onboarding prompts in Omniture
       | Restore iTunes subscription | appuseraction | Paywall: Onboarding Restore iTunes Subscription | onboarding new not synced |
       | Restore iTunes subscription | apppagename   | Paywall: Onboarding New Not Synced              | onboarding new not synced |
 
-  @F7S2
+  @MOBI-4982_S2
   @MCCDV015-[33:40]
   Scenario Outline: Onboarding repeat not synced after 3rd app launch
     Given Zalea is already a subscriber
@@ -43,7 +44,7 @@ Feature: Track MPP Onboarding prompts in Omniture
       | Skip           | apppagename   | Paywall: Onboarding Repeat Not Synced | onboarding repeat not synced |
       | Skip           | appuseraction | Paywall: Onboarding Skip              | onboarding repeat not synced |
 
-  @F7S3
+  @MOBI-4982_S3
   @MCCDV015-[41:44]
   Scenario Outline: Onborading updating app
     Given Marty is a new user without a subscription
@@ -58,7 +59,7 @@ Feature: Track MPP Onboarding prompts in Omniture
       | Skip    | apppagename   | Paywall: Onboarding Not Signed In | onboarding not signed in |
       | Skip    | appuseraction | Paywall: Onboarding Skip          | onboarding not signed in |
 
-  @F7S4
+  @MOBI-4982_S4
   @MCCDV015-[45:46]
   Scenario Outline: Onboarding reprompt
     Given Marty is a new user without a subscription
@@ -67,7 +68,7 @@ Feature: Track MPP Onboarding prompts in Omniture
     Then the <param> and the <value> are sended to Omniture
 
     Examples:
-      | option  | param         | value                                            | view                |
-      | Sign In | appuseraction | Paywall: Onboarding Reprompt Sign In  | onboarding reprompt |
-      | Dismiss | appuseraction | Paywall: Onboarding Reprompt Dismiss  | onboarding reprompt |
+      | option  | param         | value                                | view                |
+      | Sign In | appuseraction | Paywall: Onboarding Reprompt Sign In | onboarding reprompt |
+      | Dismiss | appuseraction | Paywall: Onboarding Reprompt Dismiss | onboarding reprompt |
 

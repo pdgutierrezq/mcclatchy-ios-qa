@@ -1,7 +1,8 @@
-@F2
 @MPP
 @View
 @English
+@Sprint-2
+@Sprint-3
 @MOBI-4982
 @OnboardingViews
 Feature: MPP onboarding prompts
@@ -9,7 +10,7 @@ Feature: MPP onboarding prompts
   As an business stakeholder, I want track the onboarding prompts in Omniture so that
   I can collect data on how many readers are encountering and interacting with them.
 
-  @F2S1
+  @MOBI-4982_S5
   @MCCDV015-13
   Scenario Outline: Onboarding new not synced
     Given Marty is a new user without a subscription
@@ -21,7 +22,7 @@ Feature: MPP onboarding prompts
       | onboarding new not synced | https://mcclatchy.invisionapp.com/share/GVF37226Y |
 
 
-  @F2S2
+  @MOBI-4982_S6
   @MCCDV015-[14:15]
   Scenario Outline: Onboarding repeat not synced
     Given Zalea is already a subscriber
@@ -33,7 +34,7 @@ Feature: MPP onboarding prompts
       | 4 | onboarding repeat not synced | https://mcclatchy.invisionapp.com/share/J4EJAFDMP |
       | 5 | onboarding repeat not synced | https://mcclatchy.invisionapp.com/share/J4EJAFDMP |
 
-  @F2S3
+  @MOBI-4982_S7
   @MCCDV015-16
   Scenario Outline: Onboarding not signed in
     Given Marty is a new user without a subscription
@@ -47,7 +48,7 @@ Feature: MPP onboarding prompts
       | view                     | design                                            |
       | onboarding not signed in | https://mcclatchy.invisionapp.com/share/CAE45KKRV |
 
-  @F2S4
+  @MOBI-4982_S8
   @MCCDV015-17
   Scenario Outline: Onboarding reprompt
     Given Marty is a new user without a subscription

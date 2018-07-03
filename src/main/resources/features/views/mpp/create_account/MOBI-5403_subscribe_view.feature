@@ -1,20 +1,22 @@
 @MPP
 @View
 @English
+@Sprint-4
+@Sprint-5
 @MOBI-5403
 @SubscribeView
-
 Feature:
   As a PO, I want to modify the Subscribe view to include explicit subscription information
   so that readers are fully informed on how subscriptions are handled and have access to
   Terms of Service and Privacy Policy.
 
 Background:
-  GIVEN Settings view, warning/stop panel
-  WHEN a reader taps on Subscribe
-  THEN display the Subscribe view as spec'd in the designs
+  Given Settings view, warning/stop panel
+  When a reader taps on Subscribe
+  Then display the Subscribe view as spec'd in the designs
 
-@F5403S1
+@MOBI-5403_S1
+@MCCDV015-[47:48]
 Scenario Outline:
   Given Zalea is using a <device>
   When Zalea navigates to <menu>
@@ -26,7 +28,8 @@ Scenario Outline:
     | Phone  | Subscribe | https://mcclatchy.invisionapp.com/share/RAIUOJU6YHG#/screens |
 
 
-@F5403S2
+@MOBI-5403_S2
+@MCCDV015-[49:50]
 Scenario Outline:
   Given Zalea is in the <menu>
   When Zalea taps on <link>
