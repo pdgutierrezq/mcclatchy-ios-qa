@@ -1,0 +1,531 @@
+{
+  "about": {
+    "contact_email": "info@islandpacket.com",
+    "links": {
+      "copyright": "http://www.islandpacket.com/?widgetName=code\u0026widgetContentId=1573490",
+      "privacy_policy": "http://www.islandpacket.com/?widgetName=code\u0026widgetContentId=1573605",
+      "terms_of_service": "http://www.islandpacket.com/?widgetName=code\u0026widgetContentId=1315540"
+    }
+  },
+  "ads": {
+    "adhesion": {
+      "phone": {
+        "size": {
+          "height": 50,
+          "width": 320
+        }
+      }
+    },
+    "admob": {
+      "phone": {
+        "ad_unit_id": "/7675/HHI.app-inhouse-phoneiOS_islandpacket"
+      },
+      "pl": {
+        "section": "sectfront",
+        "story": "story"
+      },
+      "tablet": {
+        "ad_unit_id": "/7675/HHI.app-inhouse-tabletiOS_islandpacket"
+      }
+    },
+    "enabled": true,
+    "interstitial": {
+      "thresholds": {
+        "galleries": 10,
+        "stories": 7
+      }
+    }
+  },
+  "analytics": {
+    "omniture": {
+      "appid": "1f439c59660c11bb1ac6e462b4ae7db97a2c6dda4168bd23f49b433afbaa90d8",
+      "biz_unit": "HHD",
+      "debug_logging": true,
+      "enabled": true,
+      "publication": "Island Packet",
+      "rsid": "nmhiltonhead,mccltAllMcClatchy",
+      "rsids": "nmhiltonhead,mccltAllMcClatchy",
+      "server": "nandomedia.112.2o7.net"
+    }
+  },
+  "api_info": {
+    "base_url": "https://api.krabc.com/mobile-api/",
+    "publication": "islandpacket"
+  },
+  "app_info": {
+    "core_app": true
+  },
+  "app_store_id": "510496152",
+  "apptentive": {
+    "api_key": "aeff7ab02ad9ec6ea804eda90b5c2479f86ff70babe90b1c0be037a28df4885f",
+    "app_key_SDK4": "IOS-ISLAND-PACKET-NEWSPAPER-APP",
+    "app_signature": "0c0e252ea42333f2a3ff323524299ab4",
+    "enabled": true
+  },
+  "log_entries": {
+    "log_level": 7
+  },
+  "market_timezone": {
+    "abbreviation": "EST",
+    "offset": -300
+  },
+  "mather": {
+    "appId": "v1",
+    "collectorUrl": "http://www.i.matheranalytics.com",
+    "cookieDomain": ".matheranalytics.com",
+    "customerId": "ma12095",
+    "enabled": true,
+    "market": "74930702",
+    "publication": "Island Packet Hilton Head"
+  },
+  "more_options": [
+    {
+      "name": "Obituaries",
+      "type": "internal_link",
+      "url": "http://www.legacy.com/obituaries/islandpacket"
+    },
+    {
+      "name": "eEdition",
+      "type": "print_edition",
+      "url": "http://digital.olivesoftware.com/Olive/ODN/IslandPacket/"
+    },
+    {
+      "name": "Traffic Cameras \u0026 info",
+      "type": "internal_link",
+      "url": "http://media.islandpacket.com/static/news/traffic/trafficcams-mobile.html"
+    },
+    {
+      "name": "Tide Charts",
+      "type": "internal_link",
+      "url": "http://media.islandpacket.com/static/news/tides/tides.html"
+    },
+    {
+      "name": "Local Gas Prices",
+      "type": "internal_link",
+      "url": "http://media.islandpacket.com/static/html/gas-prices-mobile.html"
+    },
+    {
+      "name": "Experience Hilton Head",
+      "type": "internal_link",
+      "url": "https://appsto.re/us/xwuwW.i"
+    },
+    {
+      "name": "Deals",
+      "type": "internal_link",
+      "url": "http://hiltonhead.dealsaver.com/engine/Welcome.aspx?contestid=32517\u0026LID=3315"
+    },
+    {
+      "name": "Circulars",
+      "type": "internal_link",
+      "url": "http://www.islandpacket.com/circulars"
+    },
+    {
+      "name": "Classified",
+      "type": "internal_link",
+      "url": "http://www.islandpacket.com/classified-ads"
+    },
+    {
+      "name": "Find \u0026 Save",
+      "type": "internal_link",
+      "url": "http://findnsave.islandpacket.com/"
+    },
+    {
+      "name": "Cars.com",
+      "type": "internal_link",
+      "url": "http://m.cars.com/"
+    },
+    {
+      "name": "Homefinder.com",
+      "type": "internal_link",
+      "url": "http://homefinder.com/"
+    },
+    {
+      "name": "Moonlighting",
+      "type": "internal_link",
+      "url": "http://www.startmoonlighting.com/mni/The-Island-Packet/"
+    }
+  ],
+  "paywall": {
+    "app_name": "Island Packet Hilton Head",
+    "app_url": "http://www.islandpacket.com/",
+    "digital_access_url": "https://account.islandpacket.com/digital-access",
+    "email_id": "customerservice@islandpacket.com",
+    "enabled": true,
+    "mpp_api_config": {
+      "origin": "https://emeter.mppglobal.com",
+      "tokenId": "0533BB28F4734723BD71579FA406D362",
+      "version": "9.0.0"
+    },
+    "print_subscriber_enabled": true,
+    "production_enabled": false,
+    "products": [
+      {
+        "duration": "annually",
+        "identifier": "com.mcclatchy.island.Recurring.AnnualSubscription"
+      },
+      {
+        "duration": "monthly",
+        "identifier": "com.mcclatchy.island.Recurring.MonthlySubscription"
+      }
+    ],
+    "shared_secret": "4e1434bec3c7437ba01c1474a9f14c4d",
+    "social_signin_enabled": true
+  },
+  "print_edition": {
+    "enabled": true,
+    "name": "eEdition",
+    "url": "http://digital.olivesoftware.com/Olive/ODN/IslandPacket/"
+  },
+  "print_subscriber_support_center": {
+    "enabled": true,
+    "url": "https://mcciservices.newscyclecloud.com/cgi-bin/cmo_mcc-c-cmdb-est-01.sh/custservice/web/login.html?siteid=HHI"
+  },
+  "push_notifications": {
+    "experian": {
+      "app_name": "Island Packet Hilton Head",
+      "application_id": "aa1b053e-cb5a-46ec-84ae-aa5e2fb90a64",
+      "customer_id": 663,
+      "enabled": true,
+      "is_sandbox": false,
+      "sender_profile_id": "53",
+      "site_name": "islandpacket"
+    }
+  },
+  "sections_info": {
+    "more_options_section": {
+      "enabled": true,
+      "isFirst": false,
+      "name": "Obituaries \u0026 more"
+    },
+    "multisection": {
+      "name": "Top Stories",
+      "sections_shown": 5,
+      "stories_shown": 5,
+      "top_stories_shown": 5,
+      "top_story_section_id": "7053"
+    },
+    "sections": [
+      {
+        "content_type": "content",
+        "name": "Latest News",
+        "template": 2,
+        "type": "section",
+        "url": "https://api.krabc.com/mobile-api/v1/publications/islandpacket/latest_news/limit/20"
+      },
+      {
+        "content_type": "content",
+        "name": "Local",
+        "section_id": "34717",
+        "sections": [
+          {
+            "content_type": "content",
+            "name": "Crime \u0026 Public Safety",
+            "section_id": "34735",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Untamed Lowcountry Blog",
+            "section_id": "34753",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Columns and Blogs",
+            "section_id": "34747",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Beaufort News",
+            "section_id": "34723",
+            "template": 2,
+            "type": "section"
+          }
+        ],
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "South Carolina",
+        "section_id": "34786",
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "video",
+        "name": "Featured Videos",
+        "section_id": "7053",
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Opinion",
+        "section_id": "34798",
+        "sections": [
+          {
+            "content_type": "content",
+            "name": "Editorials",
+            "section_id": "34804",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Letters",
+            "section_id": "34807",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "David Lauderdale",
+            "section_id": "34822",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Liz Farrell",
+            "section_id": "36501",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Other Voices",
+            "section_id": "34816",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Readers' Opinion",
+            "section_id": "34825",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "National Columnists",
+            "section_id": "34813",
+            "template": 2,
+            "type": "section"
+          }
+        ],
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Politics",
+        "section_id": "34774",
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Nation \u0026 World",
+        "section_id": "34765",
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Business",
+        "section_id": "34705",
+        "sections": [
+          {
+            "content_type": "content",
+            "name": "Real Estate",
+            "section_id": "34711",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Technology",
+            "section_id": "34714",
+            "template": 2,
+            "type": "section"
+          }
+        ],
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Sports",
+        "section_id": "34828",
+        "sections": [
+          {
+            "content_type": "content",
+            "name": "Golf",
+            "section_id": "34846",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "High School Sports",
+            "section_id": "34852",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Recreation",
+            "section_id": "34885",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Cast \u0026 Blast",
+            "section_id": "36603",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "College Football News",
+            "section_id": "34834",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "College Basketball News",
+            "section_id": "34840",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "NFL News",
+            "section_id": "34876",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "NBA News",
+            "section_id": "34873",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "MLB News",
+            "section_id": "34867",
+            "template": 2,
+            "type": "section"
+          }
+        ],
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Living",
+        "section_id": "34666",
+        "sections": [
+          {
+            "content_type": "content",
+            "name": "Food \u0026 Drink",
+            "section_id": "34675",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Made With Love",
+            "section_id": "34681",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Gardening",
+            "section_id": "34687",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Religion",
+            "section_id": "34696",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Outdoors",
+            "section_id": "36495",
+            "template": 2,
+            "type": "section"
+          }
+        ],
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Entertainment",
+        "section_id": "34633",
+        "sections": [
+          {
+            "content_type": "content",
+            "name": "Art \u0026 Culture",
+            "section_id": "34636",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Movies \u0026 TV",
+            "section_id": "34663",
+            "template": 2,
+            "type": "section"
+          }
+        ],
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Trending",
+        "type": "trending",
+        "url": "https://api.krabc.com/mobile-api/v1/publications/islandpacket/trending/limit/10"
+      },
+      {
+        "content_type": "gallery",
+        "name": "Featured Photos",
+        "section_id": "34717",
+        "template": 2,
+        "type": "section"
+      }
+    ],
+    "stories_shown_per_section": 20
+  },
+  "social": {
+    "facebook": {
+      "api_key": "606330409419854",
+      "enabled": true
+    }
+  },
+  "weather": {
+    "accuweather": {
+      "api_key": "2ce96fe9da724185a27db1e6a3ecf580",
+      "dev_mode": false,
+      "enabled": true,
+      "icons_base_url": "http://static.mcclatchyinteractive.com/mobile/apps/images/weather-icons/accuweather/",
+      "location_key": "340557"
+    }
+  }
+}

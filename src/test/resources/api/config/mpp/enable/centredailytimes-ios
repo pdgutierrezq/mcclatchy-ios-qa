@@ -1,0 +1,333 @@
+{
+  "about": {
+    "contact_email": "cdtonline@centredaily.com",
+    "links": {
+      "copyright": "http://www.centredaily.com/?widgetName=code\u0026widgetContentId=1573490",
+      "privacy_policy": "http://www.centredaily.com/?widgetName=code\u0026widgetContentId=1573605",
+      "terms_of_service": "http://www.centredaily.com/?widgetName=code\u0026widgetContentId=1315540"
+    }
+  },
+  "ads": {
+    "adhesion": {
+      "phone": {
+        "size": {
+          "height": 50,
+          "width": 320
+        }
+      }
+    },
+    "admob": {
+      "phone": {
+        "ad_unit_id": "/7675/STC.app-inhouse-phoneiOS_centredaily"
+      },
+      "pl": {
+        "section": "sectfront",
+        "story": "story"
+      },
+      "tablet": {
+        "ad_unit_id": "/7675/STC.app-inhouse-tabletiOS_centredaily"
+      }
+    },
+    "enabled": true,
+    "interstitial": {
+      "thresholds": {
+        "galleries": 10,
+        "stories": 7
+      }
+    },
+    "menu_enabled": false
+  },
+  "analytics": {
+    "omniture": {
+      "appid": "c1822c9a91112a55f012fc0b402fdfdef9b9350826cd36a68dd59165f940d2a1",
+      "biz_unit": "CDT",
+      "debug_logging": true,
+      "enabled": true,
+      "publication": "Centre Daily Times",
+      "rsid": "nmstatecollege,mccltAllMcClatchy",
+      "rsids": "nmstatecollege,mccltAllMcClatchy",
+      "server": "nandomedia.112.2o7.net"
+    }
+  },
+  "api_info": {
+    "base_url": "https://api.krabc.com/mobile-api/",
+    "publication": "centredaily"
+  },
+  "app_info": {
+    "core_app": true
+  },
+  "app_store_id": "448997431",
+  "apptentive": {
+    "api_key": "851c6d7251e7f1ed82789f03d088a1c892b5cf4d6d2af03dbb65f4aa5170ce63",
+    "app_key_SDK4": "IOS-CENTRE-DAILY-TIMES-NEWS",
+    "app_signature": "a2228004be3460e4dec2a4942e122363",
+    "enabled": true
+  },
+  "log_entries": {
+    "log_level": 7
+  },
+  "market_timezone": {
+    "abbreviation": "EST",
+    "offset": -300
+  },
+  "mather": {
+    "appId": "v1",
+    "collectorUrl": "http://www.i.matheranalytics.com",
+    "cookieDomain": ".matheranalytics.com",
+    "customerId": "ma12095",
+    "enabled": true,
+    "market": "74930551",
+    "publication": "Centre Daily Times"
+  },
+  "more_options": [
+    {
+      "name": "Obituaries",
+      "type": "internal_link",
+      "url": "http://www.legacy.com/obituaries/centredaily"
+    },
+    {
+      "name": "eEdition",
+      "type": "print_edition",
+      "url": "http://digital.olivesoftware.com/Olive/ODN/CentreDailyTimes/"
+    },
+    {
+      "name": "Shopping",
+      "type": "internal_link",
+      "url": "http://findnsave.centredaily.com/"
+    },
+    {
+      "name": "Classifieds",
+      "type": "internal_link",
+      "url": "http://classifieds.centredaily.com/"
+    },
+    {
+      "name": "Jobs",
+      "type": "internal_link",
+      "url": "http://www.centredaily.com/jobs/"
+    },
+    {
+      "name": "Cars",
+      "type": "internal_link",
+      "url": "https://www.cars.com/?aff=centre"
+    },
+    {
+      "name": "Homes",
+      "type": "internal_link",
+      "url": "http://www.centredaily.com/homes/"
+    },
+    {
+      "name": "Moonlighting",
+      "type": "internal_link",
+      "url": "http://www.startmoonlighting.com/mni/State-College/"
+    }
+  ],
+  "paywall": {
+    "app_name": "Centre Daily Times",
+    "app_url": "http://www.centredaily.com/",
+    "digital_access_url": "https://account.centredaily.com/digital-access",
+    "email_id": "customerservice@centredaily.com",
+    "enabled": true,
+    "mpp_api_config": {
+      "origin": "https://emeter.mppglobal.com",
+      "tokenId": "AB08B5BC106C46339C21929754202070",
+      "version": "9.0.0"
+    },
+    "print_subscriber_enabled": true,
+    "production_enabled": true,
+    "products": [
+      {
+        "duration": "annually",
+        "identifier": "com.mcclatchy.centre.Recurring.AnnualSubscription"
+      },
+      {
+        "duration": "monthly",
+        "identifier": "com.mcclatchy.centre.Recurring.MonthlySubscription"
+      }
+    ],
+    "shared_secret": "f2fe1d6f5b4d4991bdcd83d09979da25",
+    "social_signin_enabled": true
+  },
+  "print_edition": {
+    "enabled": true,
+    "name": "eEdition",
+    "url": "http://digital.olivesoftware.com/Olive/ODN/CentreDailyTimes/"
+  },
+  "print_subscriber_support_center": {
+    "enabled": true,
+    "url": "https://mcciservices.newscyclecloud.com/cgi-bin/cmo_mcc-c-cmdb-est-01.sh/custservice/web/login.html?siteid=STC"
+  },
+  "push_notifications": {
+    "experian": {
+      "app_name": "Centre Daily Times",
+      "application_id": "9362ed80-1a45-4017-9783-7c8819e8ffb6",
+      "customer_id": 663,
+      "enabled": true,
+      "is_sandbox": false,
+      "sender_profile_id": "44",
+      "site_name": "centredaily"
+    }
+  },
+  "sections_info": {
+    "more_options_section": {
+      "enabled": true,
+      "isFirst": false,
+      "name": "Obituaries \u0026 more"
+    },
+    "multisection": {
+      "name": "Top Stories",
+      "sections_shown": 5,
+      "stories_shown": 5,
+      "top_stories_shown": 5,
+      "top_story_section_id": "7085"
+    },
+    "sections": [
+      {
+        "content_type": "content",
+        "name": "Latest News",
+        "template": 2,
+        "type": "section",
+        "url": "https://api.krabc.com/mobile-api/v1/publications/centredaily/latest_news/limit/20"
+      },
+      {
+        "content_type": "content",
+        "name": "Local",
+        "section_id": "22035",
+        "sections": [
+          {
+            "content_type": "content",
+            "name": "Crime",
+            "section_id": "22056",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Penn State",
+            "section_id": "22062",
+            "template": 2,
+            "type": "section"
+          }
+        ],
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "State",
+        "section_id": "22098",
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "video",
+        "name": "Featured Videos",
+        "section_id": "7085",
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Nation/World",
+        "section_id": "22077",
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Business",
+        "section_id": "22023",
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Opinion",
+        "section_id": "22110",
+        "sections": [
+          {
+            "content_type": "content",
+            "name": "Letters to the Editor",
+            "section_id": "22116",
+            "template": 2,
+            "type": "section"
+          }
+        ],
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Sports",
+        "section_id": "22125",
+        "sections": [
+          {
+            "content_type": "content",
+            "name": "Penn State Football",
+            "section_id": "22134",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Penn State Sports",
+            "section_id": "22131",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "High School Sports",
+            "section_id": "22149",
+            "template": 2,
+            "type": "section"
+          }
+        ],
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Entertainment",
+        "section_id": "21972",
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Living",
+        "section_id": "22002",
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Trending",
+        "type": "trending",
+        "url": "https://api.krabc.com/mobile-api/v1/publications/centredaily/trending/limit/10"
+      },
+      {
+        "content_type": "gallery",
+        "name": "Featured Photos",
+        "section_id": "22035",
+        "template": 2,
+        "type": "section"
+      }
+    ],
+    "stories_shown_per_section": 20
+  },
+  "social": {
+    "facebook": {
+      "api_key": "229865280500411",
+      "enabled": true
+    }
+  },
+  "weather": {
+    "accuweather": {
+      "api_key": "2ce96fe9da724185a27db1e6a3ecf580",
+      "dev_mode": false,
+      "enabled": true,
+      "icons_base_url": "http://static.mcclatchyinteractive.com/mobile/apps/images/weather-icons/accuweather/",
+      "location_key": "335315"
+    }
+  }
+}

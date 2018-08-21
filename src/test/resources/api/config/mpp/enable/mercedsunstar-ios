@@ -1,0 +1,583 @@
+{
+  "about": {
+    "contact_email": "bclark@modbee.com",
+    "links": {
+      "copyright": "http://www.mercedsunstar.com/?widgetName=code\u0026widgetContentId=1573490",
+      "privacy_policy": "http://www.mercedsunstar.com/?widgetName=code\u0026widgetContentId=1573605",
+      "terms_of_service": "http://www.mercedsunstar.com/?widgetName=code\u0026widgetContentId=1315540"
+    }
+  },
+  "ads": {
+    "adhesion": {
+      "phone": {
+        "size": {
+          "height": 50,
+          "width": 320
+        }
+      }
+    },
+    "admob": {
+      "phone": {
+        "ad_unit_id": "/7675/MER.app-inhouse-phoneiOS_mercedsunstar"
+      },
+      "pl": {
+        "section": "sectfront",
+        "story": "story"
+      },
+      "tablet": {
+        "ad_unit_id": "/7675/MER.app-inhouse-tabletiOS_mercedsunstar"
+      }
+    },
+    "enabled": true,
+    "interstitial": {
+      "thresholds": {
+        "galleries": 10,
+        "stories": 7
+      }
+    },
+    "menu_enabled": false
+  },
+  "analytics": {
+    "omniture": {
+      "appid": "e3b5981aadcdb58e90426df73336e9be46aac2238d3f6479cdd123bb8174f4bb",
+      "biz_unit": "MER",
+      "debug_logging": true,
+      "enabled": true,
+      "publication": "Merced Sun Star",
+      "rsid": "nmmerced,mccltAllMcClatchy",
+      "rsids": "nmmerced,mccltAllMcClatchy",
+      "server": "nandomedia.112.2o7.net"
+    }
+  },
+  "api_info": {
+    "base_url": "https://api.krabc.com/mobile-api/",
+    "publication": "mercedsunstar"
+  },
+  "app_info": {
+    "core_app": true
+  },
+  "app_store_id": "511924254",
+  "apptentive": {
+    "api_key": "4faa0f02fcd06d786948094ff926dadd756b3dd77e6339d0766204bdafc962a4",
+    "app_key_SDK4": "IOS-MERCED-SUN-STAR-NEWS",
+    "app_signature": "da3c65636706ad58a7d375afe2364bf6",
+    "enabled": true
+  },
+  "log_entries": {
+    "log_level": 7
+  },
+  "market_timezone": {
+    "abbreviation": "PST",
+    "offset": -480
+  },
+  "mather": {
+    "appId": "v1",
+    "collectorUrl": "http://www.i.matheranalytics.com",
+    "cookieDomain": ".matheranalytics.com",
+    "customerId": "ma12095",
+    "enabled": true,
+    "market": "74930110",
+    "publication": "Merced Sun Star"
+  },
+  "more_options": [
+    {
+      "name": "Obituaries",
+      "type": "internal_link",
+      "url": "http://www.legacy.com/obituaries/mercedsunstar/"
+    },
+    {
+      "name": "e-Edition",
+      "type": "print_edition",
+      "url": "http://digital.olivesoftware.com/Olive/ODN/MercedSunStar/default.aspx"
+    },
+    {
+      "name": "Customer Service",
+      "type": "internal_link",
+      "url": "http://www.mercedsunstar.com/customer-service/"
+    },
+    {
+      "name": "Contact Us",
+      "type": "internal_link",
+      "url": "http://www.mercedsunstar.com/customer-service/contact-us/"
+    },
+    {
+      "name": "Submit a Letter",
+      "type": "internal_link",
+      "url": "http://www.mercedsunstar.com/opinion/letters-to-the-editor/submit-letter/"
+    },
+    {
+      "name": "Legal Notices",
+      "type": "internal_link",
+      "url": "http://www.legalnotice.org/pl/mercedsun-star/landing1.aspx"
+    },
+    {
+      "name": "Dealsaver",
+      "type": "internal_link",
+      "url": "http://merced.dealsaver.com/deal/merced?redirectUrl=home.action\u0026useDefaultCategory=true\u0026showSplashPopup=true"
+    },
+    {
+      "name": "Job Search",
+      "type": "internal_link",
+      "url": "http://www.careerbuilder.com/jobs-in-merced?pay=0\u0026siteid=cbnsv\u0026emp=ALL\u0026posted=30"
+    },
+    {
+      "name": "Garage Sales",
+      "type": "internal_link",
+      "url": "http://classifieds.mercedsunstar.com/ca/garage-sales/search"
+    },
+    {
+      "name": "Cars.com",
+      "type": "internal_link",
+      "url": "http://www.mercedsunstar.com/cars/"
+    },
+    {
+      "name": "Classifieds",
+      "type": "internal_link",
+      "url": "http://classifieds.mercedsunstar.com/"
+    },
+    {
+      "name": "Weekly Ads",
+      "type": "internal_link",
+      "url": "http://circulars.mercedsunstar.com/d/p/mercedsunstarapp?chrome=nohead"
+    },
+    {
+      "name": "Moonlighting",
+      "type": "internal_link",
+      "url": "http://www.startmoonlighting.com/mni/Merced-Sun-Star/"
+    },
+    {
+      "name": "Puzzles \u0026 Games",
+      "type": "internal_link",
+      "url": "http://games.mercedsunstar.com/"
+    },
+    {
+      "name": "Comics",
+      "type": "internal_link",
+      "url": "http://www.mercedsunstar.com/entertainment/comics/"
+    },
+    {
+      "name": "Horoscopes",
+      "type": "internal_link",
+      "url": "http://www.mercedsunstar.com/entertainment/horoscopes/"
+    },
+    {
+      "name": "Events Listings",
+      "type": "internal_link",
+      "url": "http://calendar.mercedsunstar.com/"
+    },
+    {
+      "name": "Newsletters",
+      "type": "internal_link",
+      "url": "http://www.mercedsunstar.com/site-services/newsletters/"
+    },
+    {
+      "name": "Facebook",
+      "type": "internal_link",
+      "url": "https://www.facebook.com/mercedsunstar/"
+    },
+    {
+      "name": "Twitter",
+      "type": "internal_link",
+      "url": "https://twitter.com/mercedsunstar"
+    }
+  ],
+  "paywall": {
+    "app_name": "Merced Sunstar",
+    "app_url": "http://www.mercedsunstar.com/",
+    "digital_access_url": "https://account.mercedsunstar.com/digital-access",
+    "email_id": "customerservice@modbee.com",
+    "enabled": true,
+    "mpp_api_config": {
+      "origin": "https://emeter.mppglobal.com",
+      "tokenId": "5EDCFA2243C54D1895EB7EAEE6FF8361",
+      "version": "9.0.0"
+    },
+    "print_subscriber_enabled": true,
+    "production_enabled": true,
+    "products": [
+      {
+        "duration": "annually",
+        "identifier": "com.mcclatchy.merced.Recurring.AnnualSubscription"
+      },
+      {
+        "duration": "monthly",
+        "identifier": "com.mcclatchy.merced.Recurring.MonthlySubscription"
+      }
+    ],
+    "shared_secret": "02ea3dac7e4045e0a6af5917c2eba5d4",
+    "social_signin_enabled": true
+  },
+  "print_edition": {
+    "enabled": true,
+    "name": "e-Edition",
+    "url": "http://digital.olivesoftware.com/Olive/ODN/MercedSunStar/default.aspx"
+  },
+  "print_subscriber_support_center": {
+    "enabled": true,
+    "url": "https://webport05.voiceport.net/mercedss/IFrameGUI/index.html?tenant=mercedss"
+  },
+  "push_notifications": {
+    "experian": {
+      "app_name": "Merced Sunstar",
+      "application_id": "d504eec7-1072-43e7-874f-df3687feac39",
+      "customer_id": 663,
+      "enabled": true,
+      "is_sandbox": false,
+      "sender_profile_id": "56",
+      "site_name": "mercedsunstar"
+    }
+  },
+  "sections_info": {
+    "more_options_section": {
+      "enabled": true,
+      "isFirst": false,
+      "name": "Obituaries \u0026 more"
+    },
+    "multisection": {
+      "name": "Top Stories",
+      "sections_shown": 5,
+      "stories_shown": 5,
+      "top_stories_shown": 5,
+      "top_story_section_id": "3185"
+    },
+    "sections": [
+      {
+        "content_type": "content",
+        "name": "Latest News",
+        "template": 2,
+        "type": "section",
+        "url": "https://api.krabc.com/mobile-api/v1/publications/mercedsunstar/latest_news/limit/20"
+      },
+      {
+        "content_type": "content",
+        "name": "Local",
+        "section_id": "6460",
+        "sections": [
+          {
+            "content_type": "content",
+            "name": "Crime",
+            "section_id": "6468",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Business",
+            "section_id": "6458",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Education",
+            "section_id": "6469",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "UC Merced",
+            "section_id": "6470",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Atwater",
+            "section_id": "6463",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Chowchilla",
+            "section_id": "6464",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Livingston",
+            "section_id": "6465",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Los Banos",
+            "section_id": "6466",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Mariposa \u0026 Yosemite",
+            "section_id": "6467",
+            "template": 2,
+            "type": "section"
+          }
+        ],
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "video",
+        "name": "Featured Videos",
+        "section_id": "3185",
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "California",
+        "section_id": "6477",
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Sports",
+        "section_id": "6488",
+        "sections": [
+          {
+            "content_type": "content",
+            "name": "High School Football",
+            "section_id": "6497",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "High Schools",
+            "section_id": "6495",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Merced College",
+            "section_id": "6491",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "UC Merced",
+            "section_id": "6494",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Outdoors",
+            "section_id": "6505",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "NFL",
+            "section_id": "6501",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "MLB",
+            "section_id": "6499",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "NBA",
+            "section_id": "6500",
+            "template": 2,
+            "type": "section"
+          }
+        ],
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Nation/World",
+        "section_id": "6473",
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Opinion",
+        "section_id": "6481",
+        "sections": [
+          {
+            "content_type": "content",
+            "name": "Columns",
+            "section_id": "6487",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Editorials",
+            "section_id": "6482",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Letters",
+            "section_id": "6484",
+            "template": 2,
+            "type": "section"
+          }
+        ],
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Business",
+        "section_id": "6458",
+        "sections": [
+          {
+            "content_type": "content",
+            "name": "Agriculture",
+            "section_id": "6459",
+            "template": 2,
+            "type": "section"
+          }
+        ],
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Politics",
+        "section_id": "49171",
+        "sections": [
+          {
+            "content_type": "content",
+            "name": "Elections",
+            "section_id": "49176",
+            "template": 2,
+            "type": "section"
+          }
+        ],
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Living",
+        "section_id": "6438",
+        "sections": [
+          {
+            "content_type": "content",
+            "name": "Health and Fitness",
+            "section_id": "6445",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Family",
+            "section_id": "6440",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Food and Drink",
+            "section_id": "6443",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Brigitte Bowers",
+            "section_id": "6449",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Debbie Croft",
+            "section_id": "6450",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Sarah Lim",
+            "section_id": "6453",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Old Trainer",
+            "section_id": "6455",
+            "template": 2,
+            "type": "section"
+          },
+          {
+            "content_type": "content",
+            "name": "Christine McFadden",
+            "section_id": "6454",
+            "template": 2,
+            "type": "section"
+          }
+        ],
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Entertainment",
+        "section_id": "6433",
+        "template": 2,
+        "type": "section"
+      },
+      {
+        "content_type": "content",
+        "name": "Trending",
+        "type": "trending",
+        "url": "https://api.krabc.com/mobile-api/v1/publications/mercedsunstar/trending/limit/10"
+      },
+      {
+        "content_type": "gallery",
+        "name": "Featured Photos",
+        "section_id": "3185",
+        "sections": [
+          {
+            "content_type": "gallery",
+            "name": "Sports Photos",
+            "section_id": "6488",
+            "template": 2,
+            "type": "section"
+          }
+        ],
+        "template": 2,
+        "type": "section"
+      }
+    ],
+    "stories_shown_per_section": 20
+  },
+  "social": {
+    "facebook": {
+      "api_key": "212856098879553",
+      "enabled": true
+    }
+  },
+  "weather": {
+    "accuweather": {
+      "api_key": "2ce96fe9da724185a27db1e6a3ecf580",
+      "dev_mode": false,
+      "enabled": true,
+      "icons_base_url": "http://static.mcclatchyinteractive.com/mobile/apps/images/weather-icons/accuweather/",
+      "location_key": "327132"
+    }
+  }
+}

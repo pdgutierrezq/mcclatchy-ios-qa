@@ -27,3 +27,4 @@ Repository of testing for McClatchy iOS
 | ---  |---  |
 | http://static.mcclatchyinteractive.com/mobile_app_configs/ios/phoenix/ | mcclatchy-ios-qa/src/test/resources/api/phoenix |
 | http://static.mcclatchyinteractive.com/mobile_app_configs/ios/phoenix/testSection/peter/ | mcclatchy-ios-qa/src/test/resources/api/config |
+| http://static.mcclatchyinteractive.com/mobile_app_configs/ios/phoenix/testSection/ | mcclatchy-ios-qa/src/test/resources/api/phoenix/testSection |

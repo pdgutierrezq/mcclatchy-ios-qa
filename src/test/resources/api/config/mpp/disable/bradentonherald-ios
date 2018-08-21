@@ -136,7 +136,7 @@
     "app_url": "http://www.bradenton.com/",
     "digital_access_url": "https://account.bradenton.com/digital-access",
     "email_id": "customerservice@bradenton.com",
-    "enabled": true,
+    "enabled": false,
     "mpp_api_config": {
       "origin": "https://emeter.mppglobal.com",
       "tokenId": "69AC7F5982A94B13802C89ED2E181827",
